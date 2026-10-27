@@ -1,0 +1,7 @@
+# Local raw data and execution caches must not be committed.
+data_collection/
+raw/
+reports/
+__pycache__/
+scripts/__pycache__/
+.venv/

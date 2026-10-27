@@ -1,0 +1,862 @@
+[
+  {
+    "region": "건입동",
+    "low_months": [
+      3,
+      2,
+      12
+    ],
+    "low_indices": [
+      0.868,
+      0.881,
+      0.904
+    ],
+    "day_adjusted_low_months": [
+      3,
+      12,
+      9
+    ],
+    "peak_month": 8,
+    "winter_index": 0.949
+  },
+  {
+    "region": "구좌읍",
+    "low_months": [
+      12,
+      2,
+      3
+    ],
+    "low_indices": [
+      0.773,
+      0.809,
+      0.823
+    ],
+    "day_adjusted_low_months": [
+      12,
+      3,
+      1
+    ],
+    "peak_month": 8,
+    "winter_index": 0.84
+  },
+  {
+    "region": "남원읍",
+    "low_months": [
+      3,
+      9,
+      6
+    ],
+    "low_indices": [
+      0.793,
+      0.805,
+      0.886
+    ],
+    "day_adjusted_low_months": [
+      3,
+      9,
+      7
+    ],
+    "peak_month": 1,
+    "winter_index": 1.162
+  },
+  {
+    "region": "노형동",
+    "low_months": [
+      3,
+      9,
+      12
+    ],
+    "low_indices": [
+      0.887,
+      0.906,
+      0.919
+    ],
+    "day_adjusted_low_months": [
+      3,
+      12,
+      9
+    ],
+    "peak_month": 1,
+    "winter_index": 1.017
+  },
+  {
+    "region": "대륜동",
+    "low_months": [
+      3,
+      6,
+      12
+    ],
+    "low_indices": [
+      0.837,
+      0.875,
+      0.895
+    ],
+    "day_adjusted_low_months": [
+      3,
+      12,
+      6
+    ],
+    "peak_month": 10,
+    "winter_index": 0.99
+  },
+  {
+    "region": "대정읍",
+    "low_months": [
+      12,
+      7,
+      6
+    ],
+    "low_indices": [
+      0.854,
+      0.901,
+      0.911
+    ],
+    "day_adjusted_low_months": [
+      12,
+      7,
+      3
+    ],
+    "peak_month": 8,
+    "winter_index": 0.929
+  },
+  {
+    "region": "대천동",
+    "low_months": [
+      3,
+      9,
+      12
+    ],
+    "low_indices": [
+      0.785,
+      0.814,
+      0.899
+    ],
+    "day_adjusted_low_months": [
+      3,
+      9,
+      12
+    ],
+    "peak_month": 8,
+    "winter_index": 0.971
+  },
+  {
+    "region": "도두동",
+    "low_months": [
+      3,
+      2,
+      4
+    ],
+    "low_indices": [
+      0.745,
+      0.795,
+      0.834
+    ],
+    "day_adjusted_low_months": [
+      3,
+      4,
+      2
+    ],
+    "peak_month": 10,
+    "winter_index": 1.022
+  },
+  {
+    "region": "동홍동",
+    "low_months": [
+      3,
+      4,
+      6
+    ],
+    "low_indices": [
+      0.806,
+      0.807,
+      0.844
+    ],
+    "day_adjusted_low_months": [
+      3,
+      4,
+      5
+    ],
+    "peak_month": 1,
+    "winter_index": 1.091
+  },
+  {
+    "region": "봉개동",
+    "low_months": [
+      12,
+      2,
+      3
+    ],
+    "low_indices": [
+      0.766,
+      0.781,
+      0.814
+    ],
+    "day_adjusted_low_months": [
+      12,
+      3,
+      2
+    ],
+    "peak_month": 10,
+    "winter_index": 0.905
+  },
+  {
+    "region": "삼도1동",
+    "low_months": [
+      6,
+      5,
+      3
+    ],
+    "low_indices": [
+      0.835,
+      0.866,
+      0.904
+    ],
+    "day_adjusted_low_months": [
+      6,
+      5,
+      3
+    ],
+    "peak_month": 1,
+    "winter_index": 1.104
+  },
+  {
+    "region": "삼도2동",
+    "low_months": [
+      4,
+      2,
+      9
+    ],
+    "low_indices": [
+      0.923,
+      0.938,
+      0.947
+    ],
+    "day_adjusted_low_months": [
+      3,
+      4,
+      5
+    ],
+    "peak_month": 8,
+    "winter_index": 0.997
+  },
+  {
+    "region": "삼양동",
+    "low_months": [
+      3,
+      2,
+      4
+    ],
+    "low_indices": [
+      0.797,
+      0.838,
+      0.851
+    ],
+    "day_adjusted_low_months": [
+      3,
+      12,
+      4
+    ],
+    "peak_month": 8,
+    "winter_index": 0.972
+  },
+  {
+    "region": "서홍동",
+    "low_months": [
+      4,
+      11,
+      3
+    ],
+    "low_indices": [
+      0.788,
+      0.798,
+      0.84
+    ],
+    "day_adjusted_low_months": [
+      4,
+      11,
+      3
+    ],
+    "peak_month": 1,
+    "winter_index": 1.024
+  },
+  {
+    "region": "성산읍",
+    "low_months": [
+      12,
+      11,
+      3
+    ],
+    "low_indices": [
+      0.796,
+      0.887,
+      0.919
+    ],
+    "day_adjusted_low_months": [
+      12,
+      11,
+      3
+    ],
+    "peak_month": 10,
+    "winter_index": 0.892
+  },
+  {
+    "region": "송산동",
+    "low_months": [
+      3,
+      6,
+      9
+    ],
+    "low_indices": [
+      0.852,
+      0.903,
+      0.922
+    ],
+    "day_adjusted_low_months": [
+      3,
+      12,
+      6
+    ],
+    "peak_month": 10,
+    "winter_index": 1.011
+  },
+  {
+    "region": "아라동",
+    "low_months": [
+      6,
+      2,
+      4
+    ],
+    "low_indices": [
+      0.865,
+      0.866,
+      0.869
+    ],
+    "day_adjusted_low_months": [
+      6,
+      4,
+      12
+    ],
+    "peak_month": 9,
+    "winter_index": 0.992
+  },
+  {
+    "region": "안덕면",
+    "low_months": [
+      3,
+      9,
+      11
+    ],
+    "low_indices": [
+      0.865,
+      0.897,
+      0.94
+    ],
+    "day_adjusted_low_months": [
+      3,
+      9,
+      12
+    ],
+    "peak_month": 8,
+    "winter_index": 0.96
+  },
+  {
+    "region": "애월읍",
+    "low_months": [
+      3,
+      12,
+      2
+    ],
+    "low_indices": [
+      0.831,
+      0.871,
+      0.927
+    ],
+    "day_adjusted_low_months": [
+      3,
+      12,
+      9
+    ],
+    "peak_month": 8,
+    "winter_index": 0.934
+  },
+  {
+    "region": "연동",
+    "low_months": [
+      12,
+      11,
+      9
+    ],
+    "low_indices": [
+      0.846,
+      0.9,
+      0.916
+    ],
+    "day_adjusted_low_months": [
+      12,
+      3,
+      11
+    ],
+    "peak_month": 8,
+    "winter_index": 0.932
+  },
+  {
+    "region": "영천동",
+    "low_months": [
+      3,
+      12,
+      2
+    ],
+    "low_indices": [
+      0.766,
+      0.83,
+      0.833
+    ],
+    "day_adjusted_low_months": [
+      3,
+      12,
+      2
+    ],
+    "peak_month": 8,
+    "winter_index": 0.918
+  },
+  {
+    "region": "예래동",
+    "low_months": [
+      3,
+      12,
+      11
+    ],
+    "low_indices": [
+      0.827,
+      0.896,
+      0.898
+    ],
+    "day_adjusted_low_months": [
+      3,
+      12,
+      11
+    ],
+    "peak_month": 8,
+    "winter_index": 0.941
+  },
+  {
+    "region": "오라동",
+    "low_months": [
+      2,
+      12,
+      3
+    ],
+    "low_indices": [
+      0.827,
+      0.891,
+      0.909
+    ],
+    "day_adjusted_low_months": [
+      12,
+      2,
+      3
+    ],
+    "peak_month": 10,
+    "winter_index": 0.985
+  },
+  {
+    "region": "외도동",
+    "low_months": [
+      3,
+      4,
+      2
+    ],
+    "low_indices": [
+      0.844,
+      0.875,
+      0.919
+    ],
+    "day_adjusted_low_months": [
+      3,
+      4,
+      5
+    ],
+    "peak_month": 8,
+    "winter_index": 1.005
+  },
+  {
+    "region": "용담1동",
+    "low_months": [
+      12,
+      11,
+      6
+    ],
+    "low_indices": [
+      0.898,
+      0.919,
+      0.919
+    ],
+    "day_adjusted_low_months": [
+      12,
+      11,
+      6
+    ],
+    "peak_month": 8,
+    "winter_index": 0.978
+  },
+  {
+    "region": "용담2동",
+    "low_months": [
+      3,
+      2,
+      1
+    ],
+    "low_indices": [
+      0.82,
+      0.847,
+      0.882
+    ],
+    "day_adjusted_low_months": [
+      3,
+      1,
+      2
+    ],
+    "peak_month": 10,
+    "winter_index": 1.03
+  },
+  {
+    "region": "우도면",
+    "low_months": [
+      12,
+      1,
+      2
+    ],
+    "low_indices": [
+      0.618,
+      0.762,
+      0.774
+    ],
+    "day_adjusted_low_months": [
+      12,
+      1,
+      2
+    ],
+    "peak_month": 8,
+    "winter_index": 0.738
+  },
+  {
+    "region": "이도1동",
+    "low_months": [
+      9,
+      11,
+      12
+    ],
+    "low_indices": [
+      0.813,
+      0.86,
+      0.887
+    ],
+    "day_adjusted_low_months": [
+      9,
+      12,
+      11
+    ],
+    "peak_month": 8,
+    "winter_index": 0.936
+  },
+  {
+    "region": "이도2동",
+    "low_months": [
+      4,
+      5,
+      11
+    ],
+    "low_indices": [
+      0.845,
+      0.885,
+      0.896
+    ],
+    "day_adjusted_low_months": [
+      4,
+      5,
+      3
+    ],
+    "peak_month": 8,
+    "winter_index": 1.027
+  },
+  {
+    "region": "이호동",
+    "low_months": [
+      12,
+      2,
+      3
+    ],
+    "low_indices": [
+      0.843,
+      0.86,
+      0.878
+    ],
+    "day_adjusted_low_months": [
+      12,
+      3,
+      1
+    ],
+    "peak_month": 8,
+    "winter_index": 0.899
+  },
+  {
+    "region": "일도1동",
+    "low_months": [
+      4,
+      3,
+      2
+    ],
+    "low_indices": [
+      0.683,
+      0.72,
+      0.851
+    ],
+    "day_adjusted_low_months": [
+      4,
+      3,
+      6
+    ],
+    "peak_month": 10,
+    "winter_index": 1.152
+  },
+  {
+    "region": "일도2동",
+    "low_months": [
+      11,
+      12,
+      3
+    ],
+    "low_indices": [
+      0.779,
+      0.834,
+      0.898
+    ],
+    "day_adjusted_low_months": [
+      11,
+      12,
+      3
+    ],
+    "peak_month": 1,
+    "winter_index": 0.974
+  },
+  {
+    "region": "정방동",
+    "low_months": [
+      3,
+      9,
+      6
+    ],
+    "low_indices": [
+      0.829,
+      0.864,
+      0.902
+    ],
+    "day_adjusted_low_months": [
+      3,
+      9,
+      6
+    ],
+    "peak_month": 1,
+    "winter_index": 1.026
+  },
+  {
+    "region": "조천읍",
+    "low_months": [
+      2,
+      12,
+      3
+    ],
+    "low_indices": [
+      0.805,
+      0.825,
+      0.849
+    ],
+    "day_adjusted_low_months": [
+      12,
+      3,
+      1
+    ],
+    "peak_month": 10,
+    "winter_index": 0.901
+  },
+  {
+    "region": "중문동",
+    "low_months": [
+      12,
+      3,
+      2
+    ],
+    "low_indices": [
+      0.817,
+      0.822,
+      0.868
+    ],
+    "day_adjusted_low_months": [
+      12,
+      3,
+      2
+    ],
+    "peak_month": 8,
+    "winter_index": 0.909
+  },
+  {
+    "region": "중앙동",
+    "low_months": [
+      9,
+      11,
+      3
+    ],
+    "low_indices": [
+      0.771,
+      0.853,
+      0.9
+    ],
+    "day_adjusted_low_months": [
+      9,
+      11,
+      3
+    ],
+    "peak_month": 1,
+    "winter_index": 1.023
+  },
+  {
+    "region": "천지동",
+    "low_months": [
+      3,
+      9,
+      12
+    ],
+    "low_indices": [
+      0.847,
+      0.865,
+      0.909
+    ],
+    "day_adjusted_low_months": [
+      3,
+      9,
+      12
+    ],
+    "peak_month": 1,
+    "winter_index": 1.01
+  },
+  {
+    "region": "추자면",
+    "low_months": [
+      2,
+      3,
+      6
+    ],
+    "low_indices": [
+      0.838,
+      0.839,
+      0.842
+    ],
+    "day_adjusted_low_months": [
+      3,
+      6,
+      12
+    ],
+    "peak_month": 8,
+    "winter_index": 0.943
+  },
+  {
+    "region": "표선면",
+    "low_months": [
+      12,
+      2,
+      1
+    ],
+    "low_indices": [
+      0.795,
+      0.822,
+      0.876
+    ],
+    "day_adjusted_low_months": [
+      12,
+      1,
+      2
+    ],
+    "peak_month": 10,
+    "winter_index": 0.886
+  },
+  {
+    "region": "한경면",
+    "low_months": [
+      12,
+      2,
+      3
+    ],
+    "low_indices": [
+      0.777,
+      0.838,
+      0.855
+    ],
+    "day_adjusted_low_months": [
+      12,
+      3,
+      1
+    ],
+    "peak_month": 8,
+    "winter_index": 0.851
+  },
+  {
+    "region": "한림읍",
+    "low_months": [
+      12,
+      3,
+      11
+    ],
+    "low_indices": [
+      0.772,
+      0.832,
+      0.858
+    ],
+    "day_adjusted_low_months": [
+      12,
+      3,
+      11
+    ],
+    "peak_month": 8,
+    "winter_index": 0.846
+  },
+  {
+    "region": "화북동",
+    "low_months": [
+      5,
+      6,
+      12
+    ],
+    "low_indices": [
+      0.852,
+      0.853,
+      0.863
+    ],
+    "day_adjusted_low_months": [
+      5,
+      12,
+      6
+    ],
+    "peak_month": 8,
+    "winter_index": 0.989
+  },
+  {
+    "region": "효돈동",
+    "low_months": [
+      3,
+      11,
+      9
+    ],
+    "low_indices": [
+      0.832,
+      0.858,
+      0.868
+    ],
+    "day_adjusted_low_months": [
+      3,
+      11,
+      12
+    ],
+    "peak_month": 1,
+    "winter_index": 1.003
+  }
+]

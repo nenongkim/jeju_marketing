@@ -1,0 +1,277 @@
+{
+  "regSn": 56,
+  "title": "전세버스 가동률",
+  "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=56",
+  "retrieved_at": "2026-10-27T11:33:46.555077+09:00",
+  "sha256": "ff215de5e7967601ab8107d1d7465c557c8cf93096ba226f35cec0056be98226",
+  "status": "public_preview_only",
+  "full_csv_acquired": false,
+  "preview_row_count": 10,
+  "tables": [
+    [
+      [
+        "기준연월(YYYYMM)",
+        "보유대수",
+        "월간 운행대수",
+        "수송인원",
+        "가동률(%)"
+      ],
+      [
+        "202511",
+        "1,738",
+        "13,530",
+        "338,250",
+        "25.9"
+      ],
+      [
+        "202510",
+        "1,738",
+        "18,998",
+        "474,950",
+        "35.3"
+      ],
+      [
+        "202509",
+        "1,738",
+        "16,293",
+        "407,325",
+        "31.2"
+      ],
+      [
+        "202508",
+        "1,746",
+        "7,843",
+        "196,075",
+        "14.5"
+      ],
+      [
+        "202507",
+        "1,742",
+        "10,340",
+        "258,500",
+        "19.1"
+      ],
+      [
+        "202506",
+        "1,744",
+        "14,215",
+        "355,375",
+        "27.2"
+      ],
+      [
+        "202505",
+        "1,739",
+        "21,218",
+        "528,200",
+        "39.2"
+      ],
+      [
+        "202504",
+        "1,739",
+        "20,663",
+        "516,575",
+        "39.6"
+      ],
+      [
+        "202503",
+        "1,737",
+        "12,198",
+        "304,950",
+        "22.7"
+      ],
+      [
+        "202502",
+        "1,748",
+        "4,580",
+        "114,500",
+        "9.4"
+      ]
+    ],
+    [
+      [
+        "기준연도",
+        "2025",
+        "관리부서명",
+        "제주관광공사 연구조사팀"
+      ],
+      [
+        "관리부서 전화번호",
+        "064-740-6000",
+        "차기등록예정일",
+        "매월 25일 이전"
+      ],
+      [
+        "생성일시/갱신일시",
+        "2026-10-08 15:43:23",
+        "갱신주기",
+        "월간"
+      ],
+      [
+        "조회수",
+        "694",
+        "담은 수",
+        "0"
+      ],
+      [
+        "추천 수",
+        "1",
+        "",
+        ""
+      ]
+    ],
+    [
+      [
+        "메타(키워드)",
+        "이동, 전세버스",
+        "제공 기관/작성자",
+        "제주관광공사"
+      ],
+      [
+        "데이터 출처",
+        "제주특별자치도 전세버스운송사업조합",
+        "데이터 주제",
+        "교통"
+      ],
+      [
+        "활용 목적 태그",
+        "",
+        "지역(행정구역)",
+        "제주특별자치도"
+      ],
+      [
+        "공간 단위",
+        "기초",
+        "파일 형식",
+        "CSV"
+      ],
+      [
+        "공개여부",
+        "공개",
+        "공공누리 유형",
+        "공공누리 제 1유형"
+      ]
+    ],
+    [
+      [
+        "번호",
+        "문의 유형",
+        "제목",
+        "답변",
+        "작성일자"
+      ],
+      [
+        "등록된 데이터픽 의견이 없습니다."
+      ]
+    ]
+  ],
+  "links": [
+    "#txt",
+    "/bigdata/index.do",
+    "/bigdata/sub01.do",
+    "/prog/dataPick/bigdata/sub02/list.do",
+    "/prog/trndRprt/bigdata/sub03/list.do",
+    "/prog/rpstr/bigdata/sub04_01/list.do",
+    "/prog/rpstr/bigdata/sub04_01/list.do",
+    "/bbs/BBSMSTR_000000000073/list.do",
+    "/bigdata/sub05_01.do",
+    "/bigdata/sub05_01.do",
+    "/bbs/BBSMSTR_000000000080/list.do",
+    "/bbs/BBSMSTR_000000000081/list.do",
+    "/bbs/BBSMSTR_000000000082/list.do",
+    "/bbs/BBSMSTR_000000000171/list.do",
+    "/prog/mbr/bigdata/sub06/mypage.do",
+    "/prog/mbr/bigdata/sub06_01/mypage.do",
+    "/prog/mbr/bigdata/sub06_02/myData.do",
+    "/bbs/BBSMSTR_000000000100/list.do",
+    "/bigdata/login.do",
+    "/bigdata/sub08_01.do",
+    "/bigdata/login.do",
+    "/bigdata/search.do",
+    "bbs/BBSMSTR_000000000100/list.do",
+    "/bigdata/login.do",
+    "/bigdata/search.do",
+    "#",
+    "#",
+    "/bigdata/login.do",
+    "/bigdata/sub01.do",
+    "/prog/dataPick/bigdata/sub02/list.do",
+    "/prog/trndRprt/bigdata/sub03/list.do",
+    "/prog/rpstr/bigdata/sub04_01/list.do",
+    "/prog/rpstr/bigdata/sub04_01/list.do",
+    "/bbs/BBSMSTR_000000000073/list.do",
+    "/bigdata/sub05_01.do",
+    "/bigdata/sub05_01.do",
+    "/bbs/BBSMSTR_000000000080/list.do",
+    "/bbs/BBSMSTR_000000000081/list.do",
+    "/bbs/BBSMSTR_000000000082/list.do",
+    "/bbs/BBSMSTR_000000000171/list.do",
+    "/prog/mbr/bigdata/sub06/mypage.do",
+    "/prog/mbr/bigdata/sub06_01/mypage.do",
+    "/prog/mbr/bigdata/sub06_02/myData.do",
+    "/bbs/BBSMSTR_000000000100/list.do",
+    "/bigdata/login.do",
+    "/bigdata/sub08_01.do",
+    "/bigdata/login.do",
+    "/bigdata/sitemap.do",
+    "/bigdata/sitemap.do",
+    "https://visitjeju.net/korean/privacy/privacy_policy.php",
+    "https://visitjeju.net/korean/privacy/privacy_policy_cctv.php",
+    "https://www.visitjeju.net/korean/index.php?cid=106",
+    "/bigdata/search.do",
+    "bbs/BBSMSTR_000000000100/list.do",
+    "#",
+    "#",
+    "#",
+    "#",
+    "/bigdata/login.do",
+    "/bigdata/login.do",
+    "#",
+    "#",
+    "#",
+    "#",
+    "/bigdata/index.do",
+    "/prog/dataPick/bigdata/sub02/list.do",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "/prog/rpstr/bigdata/sub04_01/view.do",
+    "/prog/rpstr/checkFile.do",
+    "/prog/rpstr/bigdata/sub04_01/view.do",
+    "/prog/rpstr/checkFile.do",
+    "/prog/rpstr/bigdata/sub04_01/view.do",
+    "/prog/rpstr/checkFile.do",
+    "/prog/rpstr/bigdata/sub04_01/view.do",
+    "/prog/rpstr/checkFile.do",
+    "/prog/dataPick/bigdata/sub02/view.do",
+    "/prog/dataPick/bigdata/sub02/view.do",
+    "/prog/dataPick/bigdata/sub02/view.do",
+    "/prog/dataPick/bigdata/sub02/view.do",
+    "/prog/dataPick/bigdata/sub02/view.do",
+    "/prog/dataPickOpnn/bigdata/sub02/write.do",
+    "https://mall.ejeju.net/main/index.do",
+    "https://www.tamnao.com/",
+    "https://www.kareumstay.com/",
+    "https://www.jejudfs.com/",
+    "https://know.tour.go.kr/",
+    "https://datalab.visitkorea.or.kr/datalab/portal/main/getMainForm.do",
+    "https://www.bigdata-culture.kr/bigdata/user/main.do",
+    "https://visitjeju.net/kr",
+    "https://www.iccjeju.co.kr/main/main.php",
+    "http://www.visitjeju.or.kr/",
+    "https://ijto.or.kr/korean/",
+    "https://www.jeju.go.kr/index.htm",
+    "https://ijto.or.kr/",
+    "https://www.jejudfs.com/",
+    "https://visitjeju.net/",
+    "https://visitjeju.net/korean/privacy/privacy_policy.php",
+    "https://www.visitjeju.net/korean/index.php?cid=106",
+    "/bbs/BBSMSTR_000000000100/list.do"
+  ]
+}

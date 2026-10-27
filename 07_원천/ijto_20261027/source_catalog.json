@@ -1,0 +1,541 @@
+[
+  {
+    "regSn": 17,
+    "title": "월별 입도 관광객",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=17",
+    "page_retrieved_at": "2026-10-27T11:32:45.307417+09:00",
+    "page_sha256": "3c96b379fc11b41320e82773633e47e0a09d9d37659b447b41ade73e6c517c43",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_17_ab275dd0fe05.csv"
+    ]
+  },
+  {
+    "regSn": 18,
+    "title": "입도 관광객 추이(일별)",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=18",
+    "page_retrieved_at": "2026-10-27T11:32:49.152623+09:00",
+    "page_sha256": "d0b708754776bf3e9566bc7fc720f63c0c4a5e168e4b20ab66d9196b32849d43",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_18_dbbc25790b70.csv"
+    ]
+  },
+  {
+    "regSn": 19,
+    "title": "월간 국가별 외국인 입도객",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=19",
+    "page_retrieved_at": "2026-10-27T11:33:32.199743+09:00",
+    "page_sha256": "38afef1591b7f9c67831d02d05fe550cc9437e0840b396de5a671e975dbb1344",
+    "license_display": "미확인",
+    "csv_files": [
+      "ijto_19_18f6dc8499f2.csv"
+    ]
+  },
+  {
+    "regSn": 20,
+    "title": "방문 목적별 내국인 입도객",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=20",
+    "page_retrieved_at": "2026-10-27T11:33:32.746196+09:00",
+    "page_sha256": "db1abf764c92bbe01cf6fd56b936057c46e651101aa4f01449550393c999027e",
+    "license_display": "미확인",
+    "csv_files": [
+      "ijto_20_b56ea912a504.csv"
+    ]
+  },
+  {
+    "regSn": 21,
+    "title": "제주 지역별 방문객(읍면동)",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=21",
+    "page_retrieved_at": "2026-10-27T11:32:41.735453+09:00",
+    "page_sha256": "bb4c910301ba4bd833e0371f1153348d98cc2a8ba03b6f83ad3b6551d588f871",
+    "license_display": "미확인",
+    "csv_files": [
+      "ijto_21_16bcba2946ad.csv"
+    ]
+  },
+  {
+    "regSn": 22,
+    "title": "비짓제주 검색어 순위",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=22",
+    "page_retrieved_at": "2026-10-27T11:32:44.690296+09:00",
+    "page_sha256": "689a600f19d45ef2cd0aa1713d8555f0d75a4c76c47363c9ae2ae33ecdbb7043",
+    "license_display": "미확인",
+    "csv_files": [
+      "ijto_22_8076d722119f.csv"
+    ]
+  },
+  {
+    "regSn": 23,
+    "title": "제주 방문 관광객 거주지 분포(시도)",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=23",
+    "page_retrieved_at": "2026-10-27T11:32:46.380167+09:00",
+    "page_sha256": "c16bf61b5474075196270c0ae615792d45b0fb59bc6c51def3d5311e5f224bcc",
+    "license_display": "미확인",
+    "csv_files": [
+      "ijto_23_67_209f0bcd46f6.csv"
+    ]
+  },
+  {
+    "regSn": 25,
+    "title": "월간 제주 소비",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=25",
+    "page_retrieved_at": "2026-10-27T11:33:37.922418+09:00",
+    "page_sha256": "2e8bf3fb4fe1aa9155b95f069f5d186edf2390ce36ecbfc3ce27829b6459b400",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_25_26_28_dadc854a9d83.csv"
+    ]
+  },
+  {
+    "regSn": 26,
+    "title": "연간 제주 소비 현황(누적)",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=26",
+    "page_retrieved_at": "2026-10-27T11:33:38.429746+09:00",
+    "page_sha256": "e77c34dcc60a3ba7cc58705ad42c0259bbe2853f3af7412d570ef4afa13496c0",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_25_26_28_dadc854a9d83.csv"
+    ]
+  },
+  {
+    "regSn": 27,
+    "title": "제주 지역별 소비",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=27",
+    "page_retrieved_at": "2026-10-27T11:32:42.340683+09:00",
+    "page_sha256": "6885dccd1394529112fb662f79d9632f5de072599b758433b589bb926e9bebf9",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_27_d0762ae6fc57.csv"
+    ]
+  },
+  {
+    "regSn": 28,
+    "title": "전체 소비 추이",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=28",
+    "page_retrieved_at": "2026-10-27T11:33:39.051744+09:00",
+    "page_sha256": "6cb51c729d8a6595907b5469ffb08756b303254aa8381a5a33ff84b0031d2109",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_25_26_28_dadc854a9d83.csv"
+    ]
+  },
+  {
+    "regSn": 35,
+    "title": "카드 소비금액 추이",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=35",
+    "page_retrieved_at": "2026-10-27T11:33:36.186384+09:00",
+    "page_sha256": "fecb0d53f6f4cfc7d9529ac57e34ce1b94326ddccc1bdaebf7715f4e63f77574",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_35_36_4c4e8f56058f.csv"
+    ]
+  },
+  {
+    "regSn": 36,
+    "title": "카드 사용 건 수 추이",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=36",
+    "page_retrieved_at": "2026-10-27T11:33:36.810272+09:00",
+    "page_sha256": "c14c72642174e7fa2186ca1b91f7ec7ad6f8d383644b11b4072c8087a9b9538b",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_35_36_4c4e8f56058f.csv"
+    ]
+  },
+  {
+    "regSn": 39,
+    "title": "시간대별 카드 소비 패턴",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=39",
+    "page_retrieved_at": "2026-10-27T11:32:42.962529+09:00",
+    "page_sha256": "fcb0be7cc667c8f90ee297931a3dc1ed8cdb43ce632d4be1d61106f5618923d4",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_39_1588cc341cca.csv"
+    ]
+  },
+  {
+    "regSn": 40,
+    "title": "방문 형태별 내국인 입도객",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=40",
+    "page_retrieved_at": "2026-10-27T11:33:33.324901+09:00",
+    "page_sha256": "3aec456683840f59ec5037e8b1295f5931bd48bbe0aeea09bfa6e77758d87698",
+    "license_display": "미확인",
+    "csv_files": [
+      "ijto_40_6c13b5516bf1.csv"
+    ]
+  },
+  {
+    "regSn": 41,
+    "title": "업종별 소비",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=41",
+    "page_retrieved_at": "2026-10-27T11:33:35.594236+09:00",
+    "page_sha256": "047b9b77b3155f451359e79b36ad5f3298de93deb5f6c757ce57514ff81ee798",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_41_f5f6862db6a3.csv"
+    ]
+  },
+  {
+    "regSn": 43,
+    "title": "소비 건 당 매출 분포",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=43",
+    "page_retrieved_at": "2026-10-27T11:33:37.362664+09:00",
+    "page_sha256": "3623b5c2cf50eba19852e7e45afd431e26c693f6160b831055327328ff79328d",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_43_bc484c3a420a.csv"
+    ]
+  },
+  {
+    "regSn": 45,
+    "title": "렌터카 가동률",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=45",
+    "page_retrieved_at": "2026-10-27T11:33:46.013969+09:00",
+    "page_sha256": "dceb009b1857d3c389766cca3512185d7a5494a1f925de432c4f39b1aba54da0",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_45_7df7302e7425.csv"
+    ]
+  },
+  {
+    "regSn": 46,
+    "title": "제주 전역 내비게이션 운행 건 수 추이",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=46",
+    "page_retrieved_at": "2026-10-27T11:33:41.509738+09:00",
+    "page_sha256": "c16df0ae5d53af27b06831d573b72c2d1dafb36892874b0c043c237176cb8275",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_46_51_0265f4f0a1a4.csv"
+    ]
+  },
+  {
+    "regSn": 47,
+    "title": "제주 권역별 카드 소비",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=47",
+    "page_retrieved_at": "2026-10-27T11:33:39.672906+09:00",
+    "page_sha256": "074f665b403e7452ad5ffe55c1069cecb4623e57d7447eec581c44ca4fb209c3",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_47_80c72f68e415.csv"
+    ]
+  },
+  {
+    "regSn": 48,
+    "title": "제주 지역별 인기 장소",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=48",
+    "page_retrieved_at": "2026-10-27T11:32:44.036154+09:00",
+    "page_sha256": "acb450e967fc8844618bb340113ded1f757d5d8dafe9a2dd6012b5be3507416f",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_48_e0d13985dfca.csv"
+    ]
+  },
+  {
+    "regSn": 49,
+    "title": "외국인 크루즈 입도객",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=49",
+    "page_retrieved_at": "2026-10-27T11:33:35.016750+09:00",
+    "page_sha256": "420ae845760c54ee0d6bd4876ed9c6a04e93515783fa275178bcad3769a23032",
+    "license_display": "미확인",
+    "csv_files": [
+      "ijto_49_96ea06785dde.csv"
+    ]
+  },
+  {
+    "regSn": 50,
+    "title": "월별 제주 항공 운항 및 여객 추이",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=50",
+    "page_retrieved_at": "2026-10-27T11:33:44.927622+09:00",
+    "page_sha256": "352a0219c93d390d3050936bfde722120424b84567f741f29ebb97d9e6254932",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_50_8e24f4a049b6.csv"
+    ]
+  },
+  {
+    "regSn": 51,
+    "title": "제주 지역별 차량 도착 수",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=51",
+    "page_retrieved_at": "2026-10-27T11:33:40.907767+09:00",
+    "page_sha256": "e10aee3407dafc92aebfd8af31f0cd9d85ba3f557ef381a65195899fafd7efe8",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_46_51_0265f4f0a1a4.csv"
+    ]
+  },
+  {
+    "regSn": 52,
+    "title": "제주 여객선 이용객",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=52",
+    "page_retrieved_at": "2026-10-27T11:33:45.462358+09:00",
+    "page_sha256": "b88b99c8e37b0e347694e9d0fbb2585ab2f819d027ae04fcd92273ac2db2f11e",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_52_187bc271cff1.csv"
+    ]
+  },
+  {
+    "regSn": 53,
+    "title": "한라산 탐방객",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=53",
+    "page_retrieved_at": "2026-10-27T11:33:43.826948+09:00",
+    "page_sha256": "ee006e4ae076269f0820a315a074c48c408b66c3ca00191284eb4075d3e88054",
+    "license_display": "미확인",
+    "csv_files": [
+      "ijto_53_6c12278d9989.csv"
+    ]
+  },
+  {
+    "regSn": 54,
+    "title": "골프장 내장객",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=54",
+    "page_retrieved_at": "2026-10-27T11:33:44.385326+09:00",
+    "page_sha256": "f57d980c63629f03104dc84eb3bc440e164b932eb6fcc2509e075f858467ae55",
+    "license_display": "미확인",
+    "csv_files": [
+      "ijto_54_9acd8fa0aff9.csv"
+    ]
+  },
+  {
+    "regSn": 55,
+    "title": "외국인 관광객 권역별 카드소비",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=55",
+    "page_retrieved_at": "2026-10-27T11:33:40.284883+09:00",
+    "page_sha256": "a817ae9f9c154bb951f9d68306890aab8c3f6bb8222cb82ae425dcb0087b7259",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_55_044f3c204962.csv"
+    ]
+  },
+  {
+    "regSn": 56,
+    "title": "전세버스 가동률",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=56",
+    "page_retrieved_at": "2026-10-27T11:33:46.555077+09:00",
+    "page_sha256": "ff215de5e7967601ab8107d1d7465c557c8cf93096ba226f35cec0056be98226",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_56_6ab6cffa265c.csv"
+    ]
+  },
+  {
+    "regSn": 57,
+    "title": "섬 속의 섬 방문객",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=57",
+    "page_retrieved_at": "2026-10-27T11:33:43.266497+09:00",
+    "page_sha256": "36042509209aca904ac1af652c8bfa03df8c4d0878a803c8d81717da22ff1035",
+    "license_display": "미확인",
+    "csv_files": [
+      "ijto_57_4729416c1d98.csv"
+    ]
+  },
+  {
+    "regSn": 59,
+    "title": "크루즈 입도객(월별)",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=59",
+    "page_retrieved_at": "2026-10-27T11:33:33.860163+09:00",
+    "page_sha256": "8c2ddde760e87d91bfa47b19c1154a32a62b9b44af8de8423375bca634a342a6",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_59_58693a66701f.csv"
+    ]
+  },
+  {
+    "regSn": 60,
+    "title": "국가별 외국인 소비",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=60",
+    "page_retrieved_at": "2026-10-27T11:32:46.924433+09:00",
+    "page_sha256": "c2ab5c54d3f82977cd4c90dd963edae90af7e754ed6babd8f7366cbdc6845379",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_60_c22059c3b83c.csv"
+    ]
+  },
+  {
+    "regSn": 63,
+    "title": "월간 제주 외식물가",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=63",
+    "page_retrieved_at": "2026-10-27T11:33:47.146952+09:00",
+    "page_sha256": "06cbc15fa0ddfab48e40d763c5c4c1d2b2c99ca92234d851f8c8810629d9a32c",
+    "license_display": "미확인",
+    "csv_files": [
+      "ijto_63_b35feae953f5.csv"
+    ]
+  },
+  {
+    "regSn": 67,
+    "title": "제주 방문 관광객 거주지 분포(시군구)",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=67",
+    "page_retrieved_at": "2026-10-27T11:32:48.601121+09:00",
+    "page_sha256": "596a0bacb6910b442972bdc7c421e3c77ca9f3484a345e3378f630b61f7b6902",
+    "license_display": "미확인",
+    "csv_files": [
+      "ijto_23_67_209f0bcd46f6.csv"
+    ]
+  },
+  {
+    "regSn": 70,
+    "title": "연도별 입도 관광객",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=70",
+    "page_retrieved_at": "2026-10-27T11:32:49.781894+09:00",
+    "page_sha256": "4487c9fd868e389983e66dc768d1c6f850eb565692bd157d5643f53b09b3dd2d",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_70_4b6f69568184.csv"
+    ]
+  },
+  {
+    "regSn": 73,
+    "title": "크루즈 입도객(일별)",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=73",
+    "page_retrieved_at": "2026-10-27T11:33:34.477514+09:00",
+    "page_sha256": "55baa132b1b429315e5beda5f2da3ab300f14626f05ff66caf93a71eda062294",
+    "license_display": "미확인",
+    "csv_files": [
+      "ijto_73_b95fd8c57b59.csv"
+    ]
+  },
+  {
+    "regSn": 82,
+    "title": "음식점업 업종별 소비 현황",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=82",
+    "page_retrieved_at": "2026-10-27T11:32:43.499541+09:00",
+    "page_sha256": "1d1749965789b59e30050d1b40cc025b05d23f56f40cdcdafa33d1a1b7b9cd33",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_82_9382cff33db0.csv"
+    ]
+  },
+  {
+    "regSn": 83,
+    "title": "제주여행 1인당 여행경비",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=83",
+    "page_retrieved_at": "2026-10-27T11:33:47.691907+09:00",
+    "page_sha256": "7b196b4276cfb52ce8355e58633ac2d4866c49ae63f330e10f23181695e6e308",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_83_73c2efe58d49.csv"
+    ]
+  },
+  {
+    "regSn": 84,
+    "title": "제주여행 체류기간",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=84",
+    "page_retrieved_at": "2026-10-27T11:33:48.227873+09:00",
+    "page_sha256": "2ca711787e0df6df9494ae56c5aaa2e1d638c7ddf7eeebab98f8dbc26c3a7386",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_84_2e7f8e58e550.csv"
+    ]
+  },
+  {
+    "regSn": 85,
+    "title": "제주여행 전반적 만족도",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=85",
+    "page_retrieved_at": "2026-10-27T11:33:48.797651+09:00",
+    "page_sha256": "92f5e5f13f3f8b28aee2c035785b6c1727c9e96d952f22a8920fe0b4fa696508",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_85_8a4ef64cef4b.csv"
+    ]
+  },
+  {
+    "regSn": 86,
+    "title": "제주여행 내국인관광객 세부 만족도",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=86",
+    "page_retrieved_at": "2026-10-27T11:33:49.404114+09:00",
+    "page_sha256": "720bbdfcf94a9e46337f079df993f83e3b4f09efd4beccf140b975f1072260d1",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_86_bdcfde092b21.csv"
+    ]
+  },
+  {
+    "regSn": 87,
+    "title": "제주여행 외국인관광객 세부 만족도",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=87",
+    "page_retrieved_at": "2026-10-27T11:33:49.957474+09:00",
+    "page_sha256": "d5a08466ecdc9f7abf8889be8926dc4b5044300da090e23f59d14bf45e5e6cb8",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_87_7be4e63ffc1a.csv"
+    ]
+  },
+  {
+    "regSn": 88,
+    "title": "제주여행 크루즈관광객 세부 만족도",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=88",
+    "page_retrieved_at": "2026-10-27T11:33:50.497535+09:00",
+    "page_sha256": "ad07ab6000d1209db31f34809f0098fa2c7299dfa4ab1b632f8898b0b29dae3a",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_88_74fe59dd21bf.csv"
+    ]
+  },
+  {
+    "regSn": 89,
+    "title": "제주 성별 방문객",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=89",
+    "page_retrieved_at": "2026-10-27T11:32:48.073511+09:00",
+    "page_sha256": "9dfbc480d0303b1a16fe931f9d82b33cb1233ccb3667c2475a9ecde1442c533c",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_89_90_98f81339aa4a.csv"
+    ]
+  },
+  {
+    "regSn": 90,
+    "title": "제주 연령대별 방문",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=90",
+    "page_retrieved_at": "2026-10-27T11:32:45.848679+09:00",
+    "page_sha256": "398f49eb03eb9bbdb5a369b01d1031b31e8f24fa2281a98452ed546f7b5c0f69",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_89_90_98f81339aa4a.csv"
+    ]
+  },
+  {
+    "regSn": 91,
+    "title": "오름별 차량 도착 수",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=91",
+    "page_retrieved_at": "2026-10-27T11:33:42.055774+09:00",
+    "page_sha256": "002c5fc3755d16ac16d4bb978c683d73cdb4fa6efae36723b89e8d873faeaa73",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_91_fcb429098684.csv"
+    ]
+  },
+  {
+    "regSn": 92,
+    "title": "곶자왈별 도착수",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=92",
+    "page_retrieved_at": "2026-10-27T11:33:42.615102+09:00",
+    "page_sha256": "1eacb1c02bf9c5efef8ac713aef74fc47f198ce1f62bd1c3d79a2e8956d37c7c",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_92_f2de61091eb7.csv"
+    ]
+  },
+  {
+    "regSn": 93,
+    "title": "제주여행 평균 동반인원 수",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=93",
+    "page_retrieved_at": "2026-10-27T11:33:50.996231+09:00",
+    "page_sha256": "282c7f68c480ea8d6ed08d96d844710d75c77e5612722f5e1015212d73be004a",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_93_a60c025842e1.csv"
+    ]
+  },
+  {
+    "regSn": 97,
+    "title": "제주 지역별 방문객(리)",
+    "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=97",
+    "page_retrieved_at": "2026-10-27T11:32:47.460247+09:00",
+    "page_sha256": "e207f36dcf8de1f872c03876896b1e6c6108ff4d900629082b2dead1c9c44636",
+    "license_display": "공공누리 제 1유형",
+    "csv_files": [
+      "ijto_97_a1dbc0013751.csv"
+    ]
+  }
+]

@@ -1,0 +1,264 @@
+{
+  "regSn": 46,
+  "title": "제주 전역 내비게이션 운행 건 수 추이",
+  "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=46",
+  "retrieved_at": "2026-10-27T11:33:41.509738+09:00",
+  "sha256": "c16df0ae5d53af27b06831d573b72c2d1dafb36892874b0c043c237176cb8275",
+  "status": "public_preview_only",
+  "full_csv_acquired": false,
+  "preview_row_count": 10,
+  "tables": [
+    [
+      [
+        "주행연월(YYYYMM)",
+        "읍면동코드",
+        "읍면동명",
+        "도착건수"
+      ],
+      [
+        "202607",
+        "39020620",
+        "예래동",
+        "68,524"
+      ],
+      [
+        "202607",
+        "39020610",
+        "중문동",
+        "46,383"
+      ],
+      [
+        "202607",
+        "39020600",
+        "대천동",
+        "24,827"
+      ],
+      [
+        "202607",
+        "39020590",
+        "대륜동",
+        "40,117"
+      ],
+      [
+        "202607",
+        "39020580",
+        "서홍동",
+        "5,994"
+      ],
+      [
+        "202607",
+        "39020570",
+        "동홍동",
+        "16,416"
+      ],
+      [
+        "202607",
+        "39020560",
+        "영천동",
+        "20,373"
+      ],
+      [
+        "202607",
+        "39020550",
+        "효돈동",
+        "8,235"
+      ],
+      [
+        "202607",
+        "39020540",
+        "천지동",
+        "17,608"
+      ],
+      [
+        "202607",
+        "39020530",
+        "중앙동",
+        "24,868"
+      ]
+    ],
+    [
+      [
+        "기준연도",
+        "2026",
+        "관리부서명",
+        "제주관광공사 연구조사팀"
+      ],
+      [
+        "관리부서 전화번호",
+        "064-740-6000",
+        "차기등록예정일",
+        "20260225"
+      ],
+      [
+        "생성일시/갱신일시",
+        "2026-09-21 14:29:20",
+        "갱신주기",
+        "월간"
+      ],
+      [
+        "조회수",
+        "1118",
+        "담은 수",
+        "2"
+      ],
+      [
+        "추천 수",
+        "0",
+        "",
+        ""
+      ]
+    ],
+    [
+      [
+        "메타(키워드)",
+        "",
+        "제공 기관/작성자",
+        "제주관광공사"
+      ],
+      [
+        "데이터 출처",
+        "티맵",
+        "데이터 주제",
+        ""
+      ],
+      [
+        "활용 목적 태그",
+        "",
+        "지역(행정구역)",
+        ""
+      ],
+      [
+        "공간 단위",
+        "",
+        "파일 형식",
+        ""
+      ],
+      [
+        "공개여부",
+        "공개",
+        "공공누리 유형",
+        "공공누리 제 1유형"
+      ]
+    ],
+    [
+      [
+        "번호",
+        "문의 유형",
+        "제목",
+        "답변",
+        "작성일자"
+      ],
+      [
+        "등록된 데이터픽 의견이 없습니다."
+      ]
+    ]
+  ],
+  "links": [
+    "#txt",
+    "/bigdata/index.do",
+    "/bigdata/sub01.do",
+    "/prog/dataPick/bigdata/sub02/list.do",
+    "/prog/trndRprt/bigdata/sub03/list.do",
+    "/prog/rpstr/bigdata/sub04_01/list.do",
+    "/prog/rpstr/bigdata/sub04_01/list.do",
+    "/bbs/BBSMSTR_000000000073/list.do",
+    "/bigdata/sub05_01.do",
+    "/bigdata/sub05_01.do",
+    "/bbs/BBSMSTR_000000000080/list.do",
+    "/bbs/BBSMSTR_000000000081/list.do",
+    "/bbs/BBSMSTR_000000000082/list.do",
+    "/bbs/BBSMSTR_000000000171/list.do",
+    "/prog/mbr/bigdata/sub06/mypage.do",
+    "/prog/mbr/bigdata/sub06_01/mypage.do",
+    "/prog/mbr/bigdata/sub06_02/myData.do",
+    "/bbs/BBSMSTR_000000000100/list.do",
+    "/bigdata/login.do",
+    "/bigdata/sub08_01.do",
+    "/bigdata/login.do",
+    "/bigdata/search.do",
+    "bbs/BBSMSTR_000000000100/list.do",
+    "/bigdata/login.do",
+    "/bigdata/search.do",
+    "#",
+    "#",
+    "/bigdata/login.do",
+    "/bigdata/sub01.do",
+    "/prog/dataPick/bigdata/sub02/list.do",
+    "/prog/trndRprt/bigdata/sub03/list.do",
+    "/prog/rpstr/bigdata/sub04_01/list.do",
+    "/prog/rpstr/bigdata/sub04_01/list.do",
+    "/bbs/BBSMSTR_000000000073/list.do",
+    "/bigdata/sub05_01.do",
+    "/bigdata/sub05_01.do",
+    "/bbs/BBSMSTR_000000000080/list.do",
+    "/bbs/BBSMSTR_000000000081/list.do",
+    "/bbs/BBSMSTR_000000000082/list.do",
+    "/bbs/BBSMSTR_000000000171/list.do",
+    "/prog/mbr/bigdata/sub06/mypage.do",
+    "/prog/mbr/bigdata/sub06_01/mypage.do",
+    "/prog/mbr/bigdata/sub06_02/myData.do",
+    "/bbs/BBSMSTR_000000000100/list.do",
+    "/bigdata/login.do",
+    "/bigdata/sub08_01.do",
+    "/bigdata/login.do",
+    "/bigdata/sitemap.do",
+    "/bigdata/sitemap.do",
+    "https://visitjeju.net/korean/privacy/privacy_policy.php",
+    "https://visitjeju.net/korean/privacy/privacy_policy_cctv.php",
+    "https://www.visitjeju.net/korean/index.php?cid=106",
+    "/bigdata/search.do",
+    "bbs/BBSMSTR_000000000100/list.do",
+    "#",
+    "#",
+    "#",
+    "#",
+    "/bigdata/login.do",
+    "/bigdata/login.do",
+    "#",
+    "#",
+    "#",
+    "#",
+    "/bigdata/index.do",
+    "/prog/dataPick/bigdata/sub02/list.do",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "/prog/rpstr/bigdata/sub04_01/view.do",
+    "/prog/rpstr/checkFile.do",
+    "/prog/rpstr/bigdata/sub04_01/view.do",
+    "/prog/rpstr/checkFile.do",
+    "/prog/rpstr/bigdata/sub04_01/view.do",
+    "/prog/rpstr/checkFile.do",
+    "/prog/rpstr/bigdata/sub04_01/view.do",
+    "/prog/rpstr/checkFile.do",
+    "/prog/dataPick/bigdata/sub02/view.do",
+    "/prog/dataPick/bigdata/sub02/view.do",
+    "/prog/dataPick/bigdata/sub02/view.do",
+    "/prog/dataPick/bigdata/sub02/view.do",
+    "/prog/dataPick/bigdata/sub02/view.do",
+    "/prog/dataPickOpnn/bigdata/sub02/write.do",
+    "https://mall.ejeju.net/main/index.do",
+    "https://www.tamnao.com/",
+    "https://www.kareumstay.com/",
+    "https://www.jejudfs.com/",
+    "https://know.tour.go.kr/",
+    "https://datalab.visitkorea.or.kr/datalab/portal/main/getMainForm.do",
+    "https://www.bigdata-culture.kr/bigdata/user/main.do",
+    "https://visitjeju.net/kr",
+    "https://www.iccjeju.co.kr/main/main.php",
+    "http://www.visitjeju.or.kr/",
+    "https://ijto.or.kr/korean/",
+    "https://www.jeju.go.kr/index.htm",
+    "https://ijto.or.kr/",
+    "https://www.jejudfs.com/",
+    "https://visitjeju.net/",
+    "https://visitjeju.net/korean/privacy/privacy_policy.php",
+    "https://www.visitjeju.net/korean/index.php?cid=106",
+    "/bbs/BBSMSTR_000000000100/list.do"
+  ]
+}

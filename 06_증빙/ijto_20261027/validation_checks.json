@@ -1,0 +1,45 @@
+[
+  {
+    "check": "Unique region-month visits",
+    "passed": true
+  },
+  {
+    "check": "Domestic plus foreign equals total visits",
+    "passed": true
+  },
+  {
+    "check": "12 months per seasonality group-year: 총 방문객수 (내국인+외국인)",
+    "passed": true
+  },
+  {
+    "check": "Regional card sum matches province publication within 0.001%",
+    "passed": true,
+    "groups": 1215,
+    "max_absolute_difference_won": 58,
+    "max_relative_error": 1.211151420633468e-07
+  },
+  {
+    "check": "12 months per seasonality group-year: 소비금액(원)",
+    "passed": true
+  },
+  {
+    "check": "Navigation totals reconcile exactly",
+    "passed": false,
+    "severity": "source_warning",
+    "affected_rows": 110389,
+    "max_absolute_difference": 217,
+    "handling": "Keep published tourist column separately; do not derive tourist share from total or reconstruct counts."
+  },
+  {
+    "check": "All 43 regions mapped",
+    "passed": true
+  },
+  {
+    "check": "Arrival component totals",
+    "passed": true
+  },
+  {
+    "check": "Daily unique dates",
+    "passed": true
+  }
+]

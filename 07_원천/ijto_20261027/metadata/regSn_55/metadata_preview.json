@@ -1,0 +1,292 @@
+{
+  "regSn": 55,
+  "title": "외국인 관광객 권역별 카드소비",
+  "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=55",
+  "retrieved_at": "2026-10-27T11:33:40.284883+09:00",
+  "sha256": "a817ae9f9c154bb951f9d68306890aab8c3f6bb8222cb82ae425dcb0087b7259",
+  "status": "public_preview_only",
+  "full_csv_acquired": false,
+  "preview_row_count": 10,
+  "tables": [
+    [
+      [
+        "기준연월",
+        "이용자구분",
+        "업종명",
+        "출신지역",
+        "이용건수",
+        "소비금액(원)"
+      ],
+      [
+        "202608",
+        "외국인 관광객",
+        "예술스포츠여가업",
+        "오세아니아권",
+        "102",
+        "20,012,884"
+      ],
+      [
+        "202608",
+        "외국인 관광객",
+        "예술스포츠여가업",
+        "아시아권",
+        "942",
+        "181,059,192"
+      ],
+      [
+        "202608",
+        "외국인 관광객",
+        "예술스포츠여가업",
+        "중화권",
+        "7,572",
+        "916,278,651"
+      ],
+      [
+        "202608",
+        "외국인 관광객",
+        "예술스포츠여가업",
+        "일본권",
+        "1,173",
+        "486,734,871"
+      ],
+      [
+        "202608",
+        "외국인 관광객",
+        "예술스포츠여가업",
+        "유럽권",
+        "1,694",
+        "89,679,464"
+      ],
+      [
+        "202608",
+        "외국인 관광객",
+        "예술스포츠여가업",
+        "북미권",
+        "1,296",
+        "158,940,424"
+      ],
+      [
+        "202608",
+        "외국인 관광객",
+        "예술스포츠여가업",
+        "기타",
+        "116",
+        "4,963,514"
+      ],
+      [
+        "202608",
+        "외국인 관광객",
+        "기타서비스업",
+        "오세아니아권",
+        "234",
+        "79,971,837"
+      ],
+      [
+        "202608",
+        "외국인 관광객",
+        "기타서비스업",
+        "아시아권",
+        "1,414",
+        "280,166,160"
+      ],
+      [
+        "202608",
+        "외국인 관광객",
+        "기타서비스업",
+        "중화권",
+        "9,410",
+        "3,008,579,148"
+      ]
+    ],
+    [
+      [
+        "기준연도",
+        "2026",
+        "관리부서명",
+        "제주관광공사 연구조사팀"
+      ],
+      [
+        "관리부서 전화번호",
+        "064-740-6000",
+        "차기등록예정일",
+        "2026-01-31"
+      ],
+      [
+        "생성일시/갱신일시",
+        "2026-10-12 15:37:44",
+        "갱신주기",
+        "월간"
+      ],
+      [
+        "조회수",
+        "991",
+        "담은 수",
+        "1"
+      ],
+      [
+        "추천 수",
+        "1",
+        "",
+        ""
+      ]
+    ],
+    [
+      [
+        "메타(키워드)",
+        "관광, 매출, 소비, 권역별, 업종별, 외국인",
+        "제공 기관/작성자",
+        "제주관광공사"
+      ],
+      [
+        "데이터 출처",
+        "BC카드",
+        "데이터 주제",
+        ""
+      ],
+      [
+        "활용 목적 태그",
+        "",
+        "지역(행정구역)",
+        ""
+      ],
+      [
+        "공간 단위",
+        "",
+        "파일 형식",
+        ""
+      ],
+      [
+        "공개여부",
+        "공개",
+        "공공누리 유형",
+        "공공누리 제 1유형"
+      ]
+    ],
+    [
+      [
+        "번호",
+        "문의 유형",
+        "제목",
+        "답변",
+        "작성일자"
+      ],
+      [
+        "등록된 데이터픽 의견이 없습니다."
+      ]
+    ]
+  ],
+  "links": [
+    "#txt",
+    "/bigdata/index.do",
+    "/bigdata/sub01.do",
+    "/prog/dataPick/bigdata/sub02/list.do",
+    "/prog/trndRprt/bigdata/sub03/list.do",
+    "/prog/rpstr/bigdata/sub04_01/list.do",
+    "/prog/rpstr/bigdata/sub04_01/list.do",
+    "/bbs/BBSMSTR_000000000073/list.do",
+    "/bigdata/sub05_01.do",
+    "/bigdata/sub05_01.do",
+    "/bbs/BBSMSTR_000000000080/list.do",
+    "/bbs/BBSMSTR_000000000081/list.do",
+    "/bbs/BBSMSTR_000000000082/list.do",
+    "/bbs/BBSMSTR_000000000171/list.do",
+    "/prog/mbr/bigdata/sub06/mypage.do",
+    "/prog/mbr/bigdata/sub06_01/mypage.do",
+    "/prog/mbr/bigdata/sub06_02/myData.do",
+    "/bbs/BBSMSTR_000000000100/list.do",
+    "/bigdata/login.do",
+    "/bigdata/sub08_01.do",
+    "/bigdata/login.do",
+    "/bigdata/search.do",
+    "bbs/BBSMSTR_000000000100/list.do",
+    "/bigdata/login.do",
+    "/bigdata/search.do",
+    "#",
+    "#",
+    "/bigdata/login.do",
+    "/bigdata/sub01.do",
+    "/prog/dataPick/bigdata/sub02/list.do",
+    "/prog/trndRprt/bigdata/sub03/list.do",
+    "/prog/rpstr/bigdata/sub04_01/list.do",
+    "/prog/rpstr/bigdata/sub04_01/list.do",
+    "/bbs/BBSMSTR_000000000073/list.do",
+    "/bigdata/sub05_01.do",
+    "/bigdata/sub05_01.do",
+    "/bbs/BBSMSTR_000000000080/list.do",
+    "/bbs/BBSMSTR_000000000081/list.do",
+    "/bbs/BBSMSTR_000000000082/list.do",
+    "/bbs/BBSMSTR_000000000171/list.do",
+    "/prog/mbr/bigdata/sub06/mypage.do",
+    "/prog/mbr/bigdata/sub06_01/mypage.do",
+    "/prog/mbr/bigdata/sub06_02/myData.do",
+    "/bbs/BBSMSTR_000000000100/list.do",
+    "/bigdata/login.do",
+    "/bigdata/sub08_01.do",
+    "/bigdata/login.do",
+    "/bigdata/sitemap.do",
+    "/bigdata/sitemap.do",
+    "https://visitjeju.net/korean/privacy/privacy_policy.php",
+    "https://visitjeju.net/korean/privacy/privacy_policy_cctv.php",
+    "https://www.visitjeju.net/korean/index.php?cid=106",
+    "/bigdata/search.do",
+    "bbs/BBSMSTR_000000000100/list.do",
+    "#",
+    "#",
+    "#",
+    "#",
+    "/bigdata/login.do",
+    "/bigdata/login.do",
+    "#",
+    "#",
+    "#",
+    "#",
+    "/bigdata/index.do",
+    "/prog/dataPick/bigdata/sub02/list.do",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "/prog/rpstr/bigdata/sub04_01/view.do",
+    "/prog/rpstr/checkFile.do",
+    "/prog/rpstr/bigdata/sub04_01/view.do",
+    "/prog/rpstr/checkFile.do",
+    "/prog/rpstr/bigdata/sub04_01/view.do",
+    "/prog/rpstr/checkFile.do",
+    "/prog/rpstr/bigdata/sub04_01/view.do",
+    "/prog/rpstr/checkFile.do",
+    "/prog/dataPick/bigdata/sub02/view.do",
+    "/prog/dataPick/bigdata/sub02/view.do",
+    "/prog/dataPick/bigdata/sub02/view.do",
+    "/prog/dataPick/bigdata/sub02/view.do",
+    "/prog/dataPick/bigdata/sub02/view.do",
+    "/prog/dataPickOpnn/bigdata/sub02/write.do",
+    "https://mall.ejeju.net/main/index.do",
+    "https://www.tamnao.com/",
+    "https://www.kareumstay.com/",
+    "https://www.jejudfs.com/",
+    "https://know.tour.go.kr/",
+    "https://datalab.visitkorea.or.kr/datalab/portal/main/getMainForm.do",
+    "https://www.bigdata-culture.kr/bigdata/user/main.do",
+    "https://visitjeju.net/kr",
+    "https://www.iccjeju.co.kr/main/main.php",
+    "http://www.visitjeju.or.kr/",
+    "https://ijto.or.kr/korean/",
+    "https://www.jeju.go.kr/index.htm",
+    "https://ijto.or.kr/",
+    "https://www.jejudfs.com/",
+    "https://visitjeju.net/",
+    "https://visitjeju.net/korean/privacy/privacy_policy.php",
+    "https://www.visitjeju.net/korean/index.php?cid=106",
+    "/bbs/BBSMSTR_000000000100/list.do"
+  ]
+}

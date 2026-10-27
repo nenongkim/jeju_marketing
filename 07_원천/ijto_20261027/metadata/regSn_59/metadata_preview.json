@@ -1,0 +1,300 @@
+{
+  "regSn": 59,
+  "title": "크루즈 입도객(월별)",
+  "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=59",
+  "retrieved_at": "2026-10-27T11:33:33.860163+09:00",
+  "sha256": "8c2ddde760e87d91bfa47b19c1154a32a62b9b44af8de8423375bca634a342a6",
+  "status": "public_preview_only",
+  "full_csv_acquired": false,
+  "preview_row_count": 4,
+  "tables": [
+    [
+      [
+        "입항년월(YYYYMM)",
+        "선박명",
+        "총승객수",
+        "한국인승객수",
+        "외국인승객수"
+      ],
+      [
+        "202610",
+        "Celebrity Millennium",
+        "2,183",
+        "21",
+        "2,162"
+      ],
+      [
+        "202610",
+        "Spectrum of The Seas",
+        "4,994",
+        "10",
+        "4,984"
+      ],
+      [
+        "202610",
+        "Dream",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "202610",
+        "The World",
+        "158",
+        "0",
+        "158"
+      ],
+      [
+        "202610",
+        "Adora Mediterranea",
+        "11,518",
+        "12",
+        "11,506"
+      ],
+      [
+        "202610",
+        "Navigator of The Seas",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "202610",
+        "Star Navigator",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "202610",
+        "Adora Magic City",
+        "19,357",
+        "76",
+        "19,281"
+      ],
+      [
+        "202610",
+        "Silver Moon",
+        "547",
+        "0",
+        "547"
+      ],
+      [
+        "202610",
+        "Carnival Luminosa",
+        "2,161",
+        "15",
+        "2,146"
+      ]
+    ],
+    [
+      [
+        "기준연도",
+        "2026",
+        "관리부서명",
+        "제주관광공사 연구조사팀"
+      ],
+      [
+        "관리부서 전화번호",
+        "064-740-6000",
+        "차기등록예정일",
+        "매월 25일 이전"
+      ],
+      [
+        "생성일시/갱신일시",
+        "2026-09-16 09:28:06",
+        "갱신주기",
+        "매주"
+      ],
+      [
+        "조회수",
+        "3534",
+        "담은 수",
+        "6"
+      ],
+      [
+        "추천 수",
+        "3",
+        "",
+        ""
+      ]
+    ],
+    [
+      [
+        "메타(키워드)",
+        "미국, 선박, 선사, 일본, 입도, 중국, 해양, 외국인, 크루즈",
+        "제공 기관/작성자",
+        "제주관광공사"
+      ],
+      [
+        "데이터 출처",
+        "제주관광협회",
+        "데이터 주제",
+        "입도"
+      ],
+      [
+        "활용 목적 태그",
+        "",
+        "지역(행정구역)",
+        ""
+      ],
+      [
+        "공간 단위",
+        "",
+        "파일 형식",
+        "CSV"
+      ],
+      [
+        "공개여부",
+        "공개",
+        "공공누리 유형",
+        "공공누리 제 1유형"
+      ]
+    ],
+    [
+      [
+        "번호",
+        "문의 유형",
+        "제목",
+        "답변",
+        "작성일자"
+      ],
+      [
+        "2",
+        "개선 제안",
+        "크루즈 입도객 데이터",
+        "안녕하세요, 제주관광공사 연구조사팀 담당자입니다.말씀 ...",
+        "2026-05-26"
+      ],
+      [
+        "1",
+        "오류 신고",
+        "크루즈 입도객 전년 동월 데이터",
+        "안녕하세요, 제주관광공사 연구조사팀 담당자입니다.답변이...",
+        "2026-04-23"
+      ]
+    ]
+  ],
+  "links": [
+    "#txt",
+    "/bigdata/index.do",
+    "/bigdata/sub01.do",
+    "/prog/dataPick/bigdata/sub02/list.do",
+    "/prog/trndRprt/bigdata/sub03/list.do",
+    "/prog/rpstr/bigdata/sub04_01/list.do",
+    "/prog/rpstr/bigdata/sub04_01/list.do",
+    "/bbs/BBSMSTR_000000000073/list.do",
+    "/bigdata/sub05_01.do",
+    "/bigdata/sub05_01.do",
+    "/bbs/BBSMSTR_000000000080/list.do",
+    "/bbs/BBSMSTR_000000000081/list.do",
+    "/bbs/BBSMSTR_000000000082/list.do",
+    "/bbs/BBSMSTR_000000000171/list.do",
+    "/prog/mbr/bigdata/sub06/mypage.do",
+    "/prog/mbr/bigdata/sub06_01/mypage.do",
+    "/prog/mbr/bigdata/sub06_02/myData.do",
+    "/bbs/BBSMSTR_000000000100/list.do",
+    "/bigdata/login.do",
+    "/bigdata/sub08_01.do",
+    "/bigdata/login.do",
+    "/bigdata/search.do",
+    "bbs/BBSMSTR_000000000100/list.do",
+    "/bigdata/login.do",
+    "/bigdata/search.do",
+    "#",
+    "#",
+    "/bigdata/login.do",
+    "/bigdata/sub01.do",
+    "/prog/dataPick/bigdata/sub02/list.do",
+    "/prog/trndRprt/bigdata/sub03/list.do",
+    "/prog/rpstr/bigdata/sub04_01/list.do",
+    "/prog/rpstr/bigdata/sub04_01/list.do",
+    "/bbs/BBSMSTR_000000000073/list.do",
+    "/bigdata/sub05_01.do",
+    "/bigdata/sub05_01.do",
+    "/bbs/BBSMSTR_000000000080/list.do",
+    "/bbs/BBSMSTR_000000000081/list.do",
+    "/bbs/BBSMSTR_000000000082/list.do",
+    "/bbs/BBSMSTR_000000000171/list.do",
+    "/prog/mbr/bigdata/sub06/mypage.do",
+    "/prog/mbr/bigdata/sub06_01/mypage.do",
+    "/prog/mbr/bigdata/sub06_02/myData.do",
+    "/bbs/BBSMSTR_000000000100/list.do",
+    "/bigdata/login.do",
+    "/bigdata/sub08_01.do",
+    "/bigdata/login.do",
+    "/bigdata/sitemap.do",
+    "/bigdata/sitemap.do",
+    "https://visitjeju.net/korean/privacy/privacy_policy.php",
+    "https://visitjeju.net/korean/privacy/privacy_policy_cctv.php",
+    "https://www.visitjeju.net/korean/index.php?cid=106",
+    "/bigdata/search.do",
+    "bbs/BBSMSTR_000000000100/list.do",
+    "#",
+    "#",
+    "#",
+    "#",
+    "/bigdata/login.do",
+    "/bigdata/login.do",
+    "#",
+    "#",
+    "#",
+    "#",
+    "/bigdata/index.do",
+    "/prog/dataPick/bigdata/sub02/list.do",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "/prog/rpstr/bigdata/sub04_01/view.do",
+    "/prog/rpstr/checkFile.do",
+    "/prog/rpstr/bigdata/sub04_01/view.do",
+    "/prog/rpstr/checkFile.do",
+    "/prog/rpstr/bigdata/sub04_01/view.do",
+    "/prog/rpstr/checkFile.do",
+    "/prog/rpstr/bigdata/sub04_01/view.do",
+    "/prog/rpstr/checkFile.do",
+    "/prog/dataPick/bigdata/sub02/view.do",
+    "/prog/dataPick/bigdata/sub02/view.do",
+    "/prog/dataPick/bigdata/sub02/view.do",
+    "/prog/dataPick/bigdata/sub02/view.do",
+    "/prog/dataPick/bigdata/sub02/view.do",
+    "/prog/dataPickOpnn/bigdata/sub02/write.do",
+    "/prog/dataPickOpnn/bigdata/sub02/view.do",
+    "/prog/dataPickOpnn/bigdata/sub02/view.do",
+    "/prog/dataPickOpnn/bigdata/sub02/view.do",
+    "/prog/dataPickOpnn/bigdata/sub02/view.do",
+    "#",
+    "https://mall.ejeju.net/main/index.do",
+    "https://www.tamnao.com/",
+    "https://www.kareumstay.com/",
+    "https://www.jejudfs.com/",
+    "https://know.tour.go.kr/",
+    "https://datalab.visitkorea.or.kr/datalab/portal/main/getMainForm.do",
+    "https://www.bigdata-culture.kr/bigdata/user/main.do",
+    "https://visitjeju.net/kr",
+    "https://www.iccjeju.co.kr/main/main.php",
+    "http://www.visitjeju.or.kr/",
+    "https://ijto.or.kr/korean/",
+    "https://www.jeju.go.kr/index.htm",
+    "https://ijto.or.kr/",
+    "https://www.jejudfs.com/",
+    "https://visitjeju.net/",
+    "https://visitjeju.net/korean/privacy/privacy_policy.php",
+    "https://www.visitjeju.net/korean/index.php?cid=106",
+    "/bbs/BBSMSTR_000000000100/list.do"
+  ]
+}

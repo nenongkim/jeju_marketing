@@ -1,0 +1,22 @@
+{
+  "raw_sha256_files_verified": 45,
+  "canonical_csv_files": 43,
+  "platform_views_covered": 49,
+  "demo_regions": 43,
+  "seasonality_rows": 516,
+  "hourly_groups_normalized": 72,
+  "hourly_rows": 1654,
+  "source_checks_passed": 8,
+  "source_warnings_retained": [
+    {
+      "check": "Navigation totals reconcile exactly",
+      "passed": false,
+      "severity": "source_warning",
+      "affected_rows": 110389,
+      "max_absolute_difference": 217,
+      "handling": "Keep published tourist column separately; do not derive tourist share from total or reconstruct counts."
+    }
+  ],
+  "demo_sha256": "8700b5c0e091f472e7f776486dd40f419f0f9230a9d25a8bf95f7887f8258097",
+  "status": "passed_with_documented_source_warning"
+}

@@ -1,0 +1,288 @@
+{
+  "regSn": 22,
+  "title": "비짓제주 검색어 순위",
+  "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=22",
+  "retrieved_at": "2026-10-27T11:32:44.690296+09:00",
+  "sha256": "689a600f19d45ef2cd0aa1713d8555f0d75a4c76c47363c9ae2ae33ecdbb7043",
+  "status": "public_preview_only",
+  "full_csv_acquired": false,
+  "preview_row_count": 10,
+  "tables": [
+    [
+      [
+        "기준년월",
+        "분류명",
+        "지역명",
+        "주소",
+        "수치"
+      ],
+      [
+        "202609",
+        "축제/행사",
+        "헌마공신 김만일기념관 - 장덕지 박사 제주馬 사진전",
+        "제주특별자치도 서귀포시 남원읍 서성로 919",
+        "20"
+      ],
+      [
+        "202609",
+        "축제/행사",
+        "전통예술 심청,花",
+        "제주특별자치도 서귀포시 태평로 270",
+        "13"
+      ],
+      [
+        "202609",
+        "축제/행사",
+        "空同의 온도",
+        "제주특별자치도 제주시 제주대학로 102",
+        "10"
+      ],
+      [
+        "202609",
+        "축제/행사",
+        "춤새제주 <엮고, 짓다; 生>",
+        "제주특별자치도 제주시 신산로 82",
+        "2"
+      ],
+      [
+        "202609",
+        "축제/행사",
+        "제주패스파인더 템플스테이 - 무심(無心)제주",
+        "제주특별자치도 제주시 산록북로 660",
+        "19"
+      ],
+      [
+        "202609",
+        "축제/행사",
+        "온고이지신(溫故而知新)의 숨결, 이세동조(異世同調)의 어울림",
+        "제주특별자치도 제주시 중앙로14길 18",
+        "5"
+      ],
+      [
+        "202609",
+        "축제/행사",
+        "제주국악, 가(歌) 무(舞) 악(樂)으로 꽃 피우다",
+        "제주특별자치도 제주시 관덕로 19",
+        "5"
+      ],
+      [
+        "202609",
+        "축제/행사",
+        "新 탐라 문화가 있는 날",
+        "제주특별자치도 제주시 관덕로 25",
+        "3"
+      ],
+      [
+        "202609",
+        "축제/행사",
+        "플리마켓 <신화愛퐁당>",
+        "제주특별자치도 서귀포시 안덕면 신화역사로304번길 38",
+        "6"
+      ],
+      [
+        "202609",
+        "축제/행사",
+        "우리고장 국가유산 나들이, 선덕사 마음 愛",
+        "제주특별자치도 서귀포시 516로771번길 64",
+        "5"
+      ]
+    ],
+    [
+      [
+        "기준연도",
+        "2026",
+        "관리부서명",
+        "제주관광공사 연구조사팀"
+      ],
+      [
+        "관리부서 전화번호",
+        "064-740-6000",
+        "차기등록예정일",
+        "매월 10일 이전"
+      ],
+      [
+        "생성일시/갱신일시",
+        "2026-01-12 20:34:31",
+        "갱신주기",
+        "월간"
+      ],
+      [
+        "조회수",
+        "1224",
+        "담은 수",
+        "8"
+      ],
+      [
+        "추천 수",
+        "1",
+        "",
+        ""
+      ]
+    ],
+    [
+      [
+        "메타(키워드)",
+        "소셜, 제주, 핫플, 트렌드, 비짓제주, 인기 장소",
+        "제공 기관/작성자",
+        "제주관광공사"
+      ],
+      [
+        "데이터 출처",
+        "제주관광공사",
+        "데이터 주제",
+        "소셜"
+      ],
+      [
+        "활용 목적 태그",
+        "운영 효율",
+        "지역(행정구역)",
+        "제주특별자치도"
+      ],
+      [
+        "공간 단위",
+        "광역",
+        "파일 형식",
+        "CSV"
+      ],
+      [
+        "공개여부",
+        "",
+        "공공누리 유형",
+        ""
+      ]
+    ],
+    [
+      [
+        "번호",
+        "문의 유형",
+        "제목",
+        "답변",
+        "작성일자"
+      ],
+      [
+        "1",
+        "내용 문의",
+        "엑셀자료 요청의 건",
+        "메일 전달드렸습니다. 확인 부탁드리겠습니다.보시다가 이...",
+        "2026-03-19"
+      ]
+    ]
+  ],
+  "links": [
+    "#txt",
+    "/bigdata/index.do",
+    "/bigdata/sub01.do",
+    "/prog/dataPick/bigdata/sub02/list.do",
+    "/prog/trndRprt/bigdata/sub03/list.do",
+    "/prog/rpstr/bigdata/sub04_01/list.do",
+    "/prog/rpstr/bigdata/sub04_01/list.do",
+    "/bbs/BBSMSTR_000000000073/list.do",
+    "/bigdata/sub05_01.do",
+    "/bigdata/sub05_01.do",
+    "/bbs/BBSMSTR_000000000080/list.do",
+    "/bbs/BBSMSTR_000000000081/list.do",
+    "/bbs/BBSMSTR_000000000082/list.do",
+    "/bbs/BBSMSTR_000000000171/list.do",
+    "/prog/mbr/bigdata/sub06/mypage.do",
+    "/prog/mbr/bigdata/sub06_01/mypage.do",
+    "/prog/mbr/bigdata/sub06_02/myData.do",
+    "/bbs/BBSMSTR_000000000100/list.do",
+    "/bigdata/login.do",
+    "/bigdata/sub08_01.do",
+    "/bigdata/login.do",
+    "/bigdata/search.do",
+    "bbs/BBSMSTR_000000000100/list.do",
+    "/bigdata/login.do",
+    "/bigdata/search.do",
+    "#",
+    "#",
+    "/bigdata/login.do",
+    "/bigdata/sub01.do",
+    "/prog/dataPick/bigdata/sub02/list.do",
+    "/prog/trndRprt/bigdata/sub03/list.do",
+    "/prog/rpstr/bigdata/sub04_01/list.do",
+    "/prog/rpstr/bigdata/sub04_01/list.do",
+    "/bbs/BBSMSTR_000000000073/list.do",
+    "/bigdata/sub05_01.do",
+    "/bigdata/sub05_01.do",
+    "/bbs/BBSMSTR_000000000080/list.do",
+    "/bbs/BBSMSTR_000000000081/list.do",
+    "/bbs/BBSMSTR_000000000082/list.do",
+    "/bbs/BBSMSTR_000000000171/list.do",
+    "/prog/mbr/bigdata/sub06/mypage.do",
+    "/prog/mbr/bigdata/sub06_01/mypage.do",
+    "/prog/mbr/bigdata/sub06_02/myData.do",
+    "/bbs/BBSMSTR_000000000100/list.do",
+    "/bigdata/login.do",
+    "/bigdata/sub08_01.do",
+    "/bigdata/login.do",
+    "/bigdata/sitemap.do",
+    "/bigdata/sitemap.do",
+    "https://visitjeju.net/korean/privacy/privacy_policy.php",
+    "https://visitjeju.net/korean/privacy/privacy_policy_cctv.php",
+    "https://www.visitjeju.net/korean/index.php?cid=106",
+    "/bigdata/search.do",
+    "bbs/BBSMSTR_000000000100/list.do",
+    "#",
+    "#",
+    "#",
+    "#",
+    "/bigdata/login.do",
+    "/bigdata/login.do",
+    "#",
+    "#",
+    "#",
+    "#",
+    "/bigdata/index.do",
+    "/prog/dataPick/bigdata/sub02/list.do",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "/prog/rpstr/bigdata/sub04_01/view.do",
+    "/prog/rpstr/checkFile.do",
+    "/prog/rpstr/bigdata/sub04_01/view.do",
+    "/prog/rpstr/checkFile.do",
+    "/prog/rpstr/bigdata/sub04_01/view.do",
+    "/prog/rpstr/checkFile.do",
+    "/prog/rpstr/bigdata/sub04_01/view.do",
+    "/prog/rpstr/checkFile.do",
+    "/prog/dataPick/bigdata/sub02/view.do",
+    "/prog/dataPick/bigdata/sub02/view.do",
+    "/prog/dataPick/bigdata/sub02/view.do",
+    "/prog/dataPick/bigdata/sub02/view.do",
+    "/prog/dataPick/bigdata/sub02/view.do",
+    "/prog/dataPickOpnn/bigdata/sub02/write.do",
+    "/prog/dataPickOpnn/bigdata/sub02/view.do",
+    "/prog/dataPickOpnn/bigdata/sub02/view.do",
+    "#",
+    "https://mall.ejeju.net/main/index.do",
+    "https://www.tamnao.com/",
+    "https://www.kareumstay.com/",
+    "https://www.jejudfs.com/",
+    "https://know.tour.go.kr/",
+    "https://datalab.visitkorea.or.kr/datalab/portal/main/getMainForm.do",
+    "https://www.bigdata-culture.kr/bigdata/user/main.do",
+    "https://visitjeju.net/kr",
+    "https://www.iccjeju.co.kr/main/main.php",
+    "http://www.visitjeju.or.kr/",
+    "https://ijto.or.kr/korean/",
+    "https://www.jeju.go.kr/index.htm",
+    "https://ijto.or.kr/",
+    "https://www.jejudfs.com/",
+    "https://visitjeju.net/",
+    "https://visitjeju.net/korean/privacy/privacy_policy.php",
+    "https://www.visitjeju.net/korean/index.php?cid=106",
+    "/bbs/BBSMSTR_000000000100/list.do"
+  ]
+}
