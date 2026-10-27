@@ -2,6 +2,19 @@
 
 2026년 2학기 정보시스템 캡스톤디자인 프로젝트 워크스페이스입니다.
 
+## 현재 작업본 로컬 실행
+
+PowerShell에서 저장소 폴더로 이동한 뒤 실행합니다.
+
+```powershell
+cd C:\Users\User\my-project
+powershell -NoProfile -ExecutionPolicy Bypass -File .\start-local.ps1
+```
+
+현재 PC의 `127.0.0.1:8766`에서 실제 데이터 구좌 사례를 엽니다. 서버 창을 열어 두고 사용하며 종료는 Ctrl+C입니다. 같은 사례 서버가 이미 있으면 해당 주소를 재사용합니다. 포트 충돌 시 명령 끝에 `-Port 8767`을 붙입니다. `-NoBrowser`는 브라우저 자동 열기를 생략합니다. 실행 정책 옵션은 이 명령의 프로세스에만 적용됩니다.
+
+GitHub Pages 배포는 `workflow_dispatch` 수동 실행만 남겼습니다. 푸시 시 자동 배포하지 않습니다. 로컬 실행에는 GitHub Pages·로그인·외부 서버가 필요하지 않습니다. 화면 데이터는 저장소의 JSON을 읽으며 계획은 브라우저에 저장합니다. 기존 예시 화면과 실제 데이터 사례의 범위는 각 화면에 표시됩니다.
+
 ## 제출 문서
 
 - [프로젝트 정의서](00_제출/Red_PROJECT.md)
@@ -26,7 +39,7 @@
 - [클릭 가능한 제주 마케팅 캘린더](02_제품/화면시안/index.html)
 - [시안 실행 방법과 구현 범위](02_제품/화면시안/README.md)
 - [Figma Make 게시본 시안 — 실행 방법과 버전](02_제품/화면시안_Make/README.md)
-- [Figma Make 게시본 시안 공개 주소 (GitHub Pages)](https://lsb-afk.github.io/-Information-Systems-Capstone-Design/)
+- 현재 작업본은 아래 로컬 실행 방법으로 확인합니다. 원본 프로젝트의 Pages 주소는 이 저장소의 배포 주소가 아닙니다.
 - [검증 결과와 화면 캡처](06_증빙/화면시안/검증.md)
 - [화면설계 자료와 PDF 재생성 방법](02_제품/화면설계/README.md)
 - [Figma Make 활용 경로와 시작 프롬프트](02_제품/화면설계/FIGMA_MAKE.md)
@@ -51,7 +64,10 @@
 
 이 저장소의 최상위 폴더가 Obsidian 보관함입니다. Obsidian에서 수정한 노트는 같은 로컬 파일에 저장됩니다.
 
-- GitHub 저장소: https://github.com/LSB-afk/-Information-Systems-Capstone-Design
+- 현재 GitHub 저장소: https://github.com/nenongkim/jeju_marketing
+- 원본 프로젝트: https://github.com/LSB-afk/-Information-Systems-Capstone-Design
+
+아래 Mac·Obsidian 자동 동기화 설명은 원본 프로젝트의 환경 기록이며 현재 Windows에서 작동한다고 확인한 설정이 아닙니다.
 - 동기화 브랜치: `main` → `origin/main`
 - 현재 Mac의 Obsidian Git 플러그인: `2.39.0`
 - Obsidian이 열려 있는 동안 5분마다 변경 사항을 커밋하고 GitHub에 푸시합니다.

@@ -2,14 +2,11 @@
 
 Figma Make로 만든 화면을 게시 사이트에서 그대로 가져와 로컬에서 실행하는 폴더
 
-## 공개 주소
+## 현재 실행 방식
 
-**[lsb-afk.github.io/-Information-Systems-Capstone-Design](https://lsb-afk.github.io/-Information-Systems-Capstone-Design/)**
+저장소 최상위의 `start-local.ps1`로 현재 PC에서 실행합니다. 상세 명령은 루트 README의 로컬 실행 안내를 참고하세요. 기본 화면은 실제 구좌 사례이며 기존 시안은 사례 화면의 링크로 이동할 수 있습니다.
 
-- 이 폴더를 GitHub Pages로 게시한 주소이며, 링크를 아는 사람은 로그인 없이 볼 수 있음
-- 제주 읍·면 지도처럼 이 폴더에서 고친 내용이 그대로 보임 Figma Make 게시 사이트에는 지도 수정이 없음
-- `main`에 이 폴더를 바꾼 커밋을 푸시하면 [Pages 워크플로](../../.github/workflows/pages.yml)가 자동으로 다시 게시함 반영까지 1분에서 2분쯤 걸림
-- 공개 주소이므로 실제 사업체 자료·개인정보·인증키는 이 폴더에 넣지 않음
+원본 공개 주소 `https://lsb-afk.github.io/-Information-Systems-Capstone-Design/`는 다른 저장소의 과거 게시 주소입니다. 현재 `nenongkim/jeju_marketing`의 배포 주소가 아닙니다. Pages 워크플로는 수동 실행만 가능하며 푸시 시 자동 실행하지 않습니다. 공개 배포 설정은 별도 작업입니다.
 
 ## 출처와 버전
 

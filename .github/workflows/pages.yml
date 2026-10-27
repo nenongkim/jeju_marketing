@@ -2,11 +2,6 @@
 name: Pages · 화면 시안
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "02_제품/화면시안_Make/**"
-      - ".github/workflows/pages.yml"
   workflow_dispatch:
 
 permissions:
