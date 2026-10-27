@@ -1,0 +1,20 @@
+{
+  "verified_date_kst": "2026-10-28",
+  "source_commit": "be43dda2e1fd4abc2e8eeadd054149bb9162f1df",
+  "run_id": 40527692532,
+  "run_conclusion": "success",
+  "public_commit": "4dc32f02b4dccd01607fff651e7c766b749af566",
+  "pages_status": "built",
+  "site": "https://nenongkim.github.io/jeju-marketing-demo/",
+  "asset_sha256": {
+    "index.html": "10ce76e33e491f25a228f15baf7d8a8ac01402b23bd8121dea289a077d8c107a",
+    "case.css": "c72525ccba80212d5093a4a02a8ed21c0dd527cdd069975abb88289b8e2c0035",
+    "case.js": "d2140a3a9749afd28d61eb8db7043c1324cdd18d6e77101bfbffad142866cae7",
+    "workflow.js": "b34bbf898e777d5967489a6bc449915985b81b1986e0f5cc9f713d341a2690d2",
+    "recent.js": "0e3f16ada789e9a07532583d7fbec35a235f4a3f0d155b559c73ef90de870612",
+    "case-data.json": "03dfd0a827b46ec45167441a8d6e35c4d4ca779605b09d74c51ac8426f6389e8",
+    "recent-data.json": "89b44cd5ef1c1f030ec4b24ec0aebb3592538afd409f0649bd7a7c417f46df83"
+  },
+  "summary_relative_links_valid": true,
+  "scope": "Automated deployment and HTTP asset equality; no new user evaluation or business outcome measurement"
+}
