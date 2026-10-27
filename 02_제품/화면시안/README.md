@@ -90,3 +90,8 @@ node review-regression.test.mjs
 - `assets/OFL.txt`: 글꼴 사용 허가
 
 글꼴 출처: [Pretendard 공식 저장소](https://github.com/orioncactus/pretendard/tree/v1.3.9)
+
+
+## 2026년 10월 27일 실제 데이터 사례 연결
+
+기존 예시 화면에 실제 데이터 기반 구좌 음식점 사례로 이동하는 링크를 추가했다. 두 시안에서 공통 사례를 열려면 저장소의 `02_제품` 폴더를 정적 서버 루트로 사용한다. 기존 예시의 수치와 공모전 실제 자료 사례를 구분한다. 실행·데이터·검증 범위는 [사례 안내](../화면시안_Make/evidence/README.md) 참고

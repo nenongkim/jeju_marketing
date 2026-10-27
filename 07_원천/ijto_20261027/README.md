@@ -33,3 +33,8 @@ python "$scripts/build_ijto_delivery.py" --data-root $dataRoot --repo-root .
 - 원천 경고가 남으면 `passed_with_documented_source_warning`으로 보고한다. 경고를 없애기 위해 원본 수치를 보정하지 않는다.
 
 분석 결과: [보고서](../../05_리서치/20261027_실제데이터_수집과_분석.md), [시연용 데이터 안내](../../02_제품/데이터/README.md)
+
+
+## 대상 월 사례 분석 보완
+
+`strengthen_ijto_case.py --data-root 수집루트 --repo-root 저장소루트`로 43개 지역의 안정성과 구좌의 12개월 고객군·시간대·장소 자료를 생성한다. 원본 21·27·39·48을 사용하며 결측 시간대는 null이다. 이 스크립트가 만드는 `case-data.json`이 실제 사례 화면의 입력이며 초기 범용 `ijto-demo-20261027.json`과 구분한다.

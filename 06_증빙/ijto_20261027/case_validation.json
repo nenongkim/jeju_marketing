@@ -1,0 +1,71 @@
+{
+  "source_hashes_verified": 4,
+  "region_month_rows": 516,
+  "case_months": 12,
+  "customer_month_groups": 36,
+  "hour_rows": 864,
+  "december": {
+    "region": "구좌읍",
+    "month": 12,
+    "visits_index": 0.7726594021981196,
+    "spend_index": 0.8325932628098466,
+    "visits_daily_index": 0.7596376588850685,
+    "spend_daily_index": 0.8187443360920698,
+    "both_below_mean_years": 3,
+    "stable_low": true,
+    "threshold_sensitivity": {
+      "0.9": true,
+      "0.95": true,
+      "1.0": true
+    },
+    "annual": [
+      {
+        "year": 2023,
+        "month": 12,
+        "monthly_index_visits": 0.8017997972,
+        "daily_index_visits": 0.7869545616,
+        "monthly_index_spend": 0.8695780422,
+        "daily_index_spend": 0.8539659904
+      },
+      {
+        "year": 2024,
+        "month": 12,
+        "monthly_index_visits": 0.7334671747,
+        "daily_index_visits": 0.7222641451,
+        "monthly_index_spend": 0.8001768888,
+        "daily_index_spend": 0.7878760678
+      },
+      {
+        "year": 2025,
+        "month": 12,
+        "monthly_index_visits": 0.7827112348,
+        "daily_index_visits": 0.76969427,
+        "monthly_index_spend": 0.8280248574,
+        "daily_index_spend": 0.8143909501
+      }
+    ]
+  },
+  "holdout": [
+    {
+      "excluded_year": 2023,
+      "flagged": 75,
+      "also_low_in_excluded_year": 47,
+      "agreement_among_flagged": 0.6266666666666667,
+      "note": "Retrospective robustness check; reference years may include future years relative to excluded year."
+    },
+    {
+      "excluded_year": 2024,
+      "flagged": 59,
+      "also_low_in_excluded_year": 47,
+      "agreement_among_flagged": 0.7966101694915254,
+      "note": "Retrospective robustness check; reference years may include future years relative to excluded year."
+    },
+    {
+      "excluded_year": 2025,
+      "flagged": 65,
+      "also_low_in_excluded_year": 44,
+      "agreement_among_flagged": 0.676923076923077,
+      "note": "Retrospective robustness check; reference years may include future years relative to excluded year."
+    }
+  ]
+}
