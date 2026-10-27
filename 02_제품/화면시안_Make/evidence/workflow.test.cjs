@@ -1,0 +1,12 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),path=require('node:path');
+const code=fs.readFileSync(path.join(__dirname,'workflow.js'),'utf8');
+const stored=new Map();let fail=false;const ctx=vm.createContext({localStorage:{getItem:k=>stored.get(k)||null,setItem:(k,v)=>{if(fail)throw Error('quota');stored.set(k,v);}},Date,console});vm.runInContext(code,ctx);
+const plan={id:'p1',month:12,customer:'도민',date:'2026-12-04',reason:'근거',action:'실행 검토',metric:'이해도',evidence:{snapshot:'2026-10-27'},record:null};
+ctx.commitWorkspace({version:1,plans:[plan]});assert.equal(JSON.parse(stored.values().next().value).plans.length,1);
+let record={status:'진행 중',date:'2026-10-27',activity:'검증',note:'',minutes:null,clicks:0,bookings:null,coupons:null};ctx.validateRecord(record);
+ctx.commitWorkspace({version:1,plans:[{...plan,record}]});let saved=JSON.parse(stored.values().next().value);assert.equal(saved.plans[0].record.clicks,0);assert.equal(saved.plans[0].record.bookings,null);
+for(const r of [{...record,clicks:-1},{...record,bookings:1.5},{...record,status:'실행 완료',date:''},{...record,date:'2099-01-01'}])assert.throws(()=>ctx.validateRecord(r));
+assert.throws(()=>ctx.validateWorkspace({version:1,plans:[{...plan,date:'2026-11-04'}]}));assert.throws(()=>ctx.validateWorkspace({version:1,plans:[plan,plan]}));assert.equal(ctx.validDate('2026-02-30'),false);
+fail=true;assert.throws(()=>ctx.commitWorkspace({version:1,plans:[]}));assert.equal(vm.runInContext('workspace.plans.length',ctx),1);
+const broken=vm.createContext({localStorage:{getItem:()=>'{broken',setItem:()=>{throw Error('must not overwrite');}},Date});vm.runInContext(code,broken);assert.equal(vm.runInContext('storageBlocked',broken),true);assert.throws(()=>broken.commitWorkspace({version:1,plans:[]}));
+console.log('PASS: persistence, zero vs missing, invalid dates/counts, duplicate IDs, failed write preserves state, corrupt storage blocked');
