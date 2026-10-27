@@ -38,3 +38,9 @@ python "$scripts/build_ijto_delivery.py" --data-root $dataRoot --repo-root .
 ## 대상 월 사례 분석 보완
 
 `strengthen_ijto_case.py --data-root 수집루트 --repo-root 저장소루트`로 43개 지역의 안정성과 구좌의 12개월 고객군·시간대·장소 자료를 생성한다. 원본 21·27·39·48을 사용하며 결측 시간대는 null이다. 이 스크립트가 만드는 `case-data.json`이 실제 사례 화면의 입력이며 초기 범용 `ijto-demo-20261027.json`과 구분한다.
+
+## 추가 동기간 분석
+
+`strengthen_ijto_case.py` 실행 후 `python 07_원천/ijto_20261027/scripts/extend_case_analysis.py --data-root <로컬 data_collection 경로> --repo-root .`로 추가 분석을 재생성한다. 2026-10-27 스냅샷의 공통 기간은 1월부터 8월까지다. `case-data.json`과 `recent-data.json`이 모두 필요하며 로딩·검증 실패 시 예시 자료로 대체하지 않는다.
+
+`node 02_제품/화면시안_Make/evidence/case-data.test.cjs`와 `node 02_제품/화면시안_Make/evidence/recent-data.test.cjs`로 검사한다. 실제 사용자 평가는 `06_증빙/사용자평가`의 절차와 빈 양식을 사용한다.

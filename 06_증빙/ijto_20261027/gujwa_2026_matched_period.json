@@ -1,0 +1,590 @@
+{
+  "ytd": {
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "visits": {
+      "value_2025": 4713366.0,
+      "value_2026": 4573686.0,
+      "change_pct": -2.963487240328888
+    },
+    "spend": {
+      "value_2025": 45370183178.0,
+      "value_2026": 43269525794.0,
+      "change_pct": -4.630039459524616
+    },
+    "transactions": {
+      "value_2025": 1402422.0,
+      "value_2026": 1313471.0,
+      "change_pct": -6.342670037977161
+    },
+    "segments": [
+      {
+        "customer": "내국인 관광객",
+        "spend": {
+          "value_2025": 32831722025.0,
+          "value_2026": 28769168761.0,
+          "change_pct": -12.373865924262317
+        },
+        "transactions": {
+          "value_2025": 979183.0,
+          "value_2026": 836153.0,
+          "change_pct": -14.607075490485432
+        }
+      },
+      {
+        "customer": "도민",
+        "spend": {
+          "value_2025": 9771025451.0,
+          "value_2026": 9856093658.0,
+          "change_pct": 0.870616983105843
+        },
+        "transactions": {
+          "value_2025": 332619.0,
+          "value_2026": 334776.0,
+          "change_pct": 0.6484897134559464
+        }
+      },
+      {
+        "customer": "외국인 관광객",
+        "spend": {
+          "value_2025": 2767435702.0,
+          "value_2026": 4644263375.0,
+          "change_pct": 67.81829372381205
+        },
+        "transactions": {
+          "value_2025": 90620.0,
+          "value_2026": 142542.0,
+          "change_pct": 57.29640256014126
+        }
+      }
+    ]
+  },
+  "monthly": [
+    {
+      "month": 1,
+      "months": [
+        1
+      ],
+      "visits": {
+        "value_2025": 493209.0,
+        "value_2026": 481802.0,
+        "change_pct": -2.3128126210186783
+      },
+      "spend": {
+        "value_2025": 4546311310.0,
+        "value_2026": 4680287698.0,
+        "change_pct": 2.946925075397
+      },
+      "transactions": {
+        "value_2025": 139876.0,
+        "value_2026": 140485.0,
+        "change_pct": 0.4353856272698575
+      },
+      "segments": [
+        {
+          "customer": "내국인 관광객",
+          "spend": {
+            "value_2025": 3280945620.0,
+            "value_2026": 3288263235.0,
+            "change_pct": 0.223033717943788
+          },
+          "transactions": {
+            "value_2025": 97309.0,
+            "value_2026": 94010.0,
+            "change_pct": -3.3902311194236923
+          }
+        },
+        {
+          "customer": "도민",
+          "spend": {
+            "value_2025": 1103065803.0,
+            "value_2026": 1079274786.0,
+            "change_pct": -2.1568085000274406
+          },
+          "transactions": {
+            "value_2025": 36927.0,
+            "value_2026": 36185.0,
+            "change_pct": -2.0093698377880664
+          }
+        },
+        {
+          "customer": "외국인 관광객",
+          "spend": {
+            "value_2025": 162299887.0,
+            "value_2026": 312749677.0,
+            "change_pct": 92.69864125044029
+          },
+          "transactions": {
+            "value_2025": 5640.0,
+            "value_2026": 10290.0,
+            "change_pct": 82.4468085106383
+          }
+        }
+      ]
+    },
+    {
+      "month": 2,
+      "months": [
+        2
+      ],
+      "visits": {
+        "value_2025": 403163.0,
+        "value_2026": 430932.0,
+        "change_pct": 6.887784841366895
+      },
+      "spend": {
+        "value_2025": 3603026075.0,
+        "value_2026": 4277503023.0,
+        "change_pct": 18.719735410185724
+      },
+      "transactions": {
+        "value_2025": 113094.0,
+        "value_2026": 128224.0,
+        "change_pct": 13.37825171980831
+      },
+      "segments": [
+        {
+          "customer": "내국인 관광객",
+          "spend": {
+            "value_2025": 2545889365.0,
+            "value_2026": 2837484528.0,
+            "change_pct": 11.453567739774906
+          },
+          "transactions": {
+            "value_2025": 77738.0,
+            "value_2026": 81062.0,
+            "change_pct": 4.275901103707325
+          }
+        },
+        {
+          "customer": "도민",
+          "spend": {
+            "value_2025": 931929982.0,
+            "value_2026": 1102556079.0,
+            "change_pct": 18.30889662266495
+          },
+          "transactions": {
+            "value_2025": 30803.0,
+            "value_2026": 36347.0,
+            "change_pct": 17.998246924000917
+          }
+        },
+        {
+          "customer": "외국인 관광객",
+          "spend": {
+            "value_2025": 125206728.0,
+            "value_2026": 337462416.0,
+            "change_pct": 169.52418723057758
+          },
+          "transactions": {
+            "value_2025": 4553.0,
+            "value_2026": 10815.0,
+            "change_pct": 137.53569075334946
+          }
+        }
+      ]
+    },
+    {
+      "month": 3,
+      "months": [
+        3
+      ],
+      "visits": {
+        "value_2025": 453440.0,
+        "value_2026": 463298.0,
+        "change_pct": 2.174047282992242
+      },
+      "spend": {
+        "value_2025": 4543816717.0,
+        "value_2026": 4654758194.0,
+        "change_pct": 2.441592254038971
+      },
+      "transactions": {
+        "value_2025": 142961.0,
+        "value_2026": 143648.0,
+        "change_pct": 0.48055063968495126
+      },
+      "segments": [
+        {
+          "customer": "내국인 관광객",
+          "spend": {
+            "value_2025": 3152826209.0,
+            "value_2026": 2989235835.0,
+            "change_pct": -5.188689866032514
+          },
+          "transactions": {
+            "value_2025": 96246.0,
+            "value_2026": 88025.0,
+            "change_pct": -8.541653679113937
+          }
+        },
+        {
+          "customer": "도민",
+          "spend": {
+            "value_2025": 1155094133.0,
+            "value_2026": 1179611196.0,
+            "change_pct": 2.1225164512198136
+          },
+          "transactions": {
+            "value_2025": 38929.0,
+            "value_2026": 41080.0,
+            "change_pct": 5.525443756582504
+          }
+        },
+        {
+          "customer": "외국인 관광객",
+          "spend": {
+            "value_2025": 235896375.0,
+            "value_2026": 485911163.0,
+            "change_pct": 105.98500634017797
+          },
+          "transactions": {
+            "value_2025": 7786.0,
+            "value_2026": 14543.0,
+            "change_pct": 86.78397123041357
+          }
+        }
+      ]
+    },
+    {
+      "month": 4,
+      "months": [
+        4
+      ],
+      "visits": {
+        "value_2025": 560513.0,
+        "value_2026": 526958.0,
+        "change_pct": -5.986480242206693
+      },
+      "spend": {
+        "value_2025": 5417894357.0,
+        "value_2026": 4981407564.0,
+        "change_pct": -8.056391731523016
+      },
+      "transactions": {
+        "value_2025": 165678.0,
+        "value_2026": 151103.0,
+        "change_pct": -8.797184900831734
+      },
+      "segments": [
+        {
+          "customer": "내국인 관광객",
+          "spend": {
+            "value_2025": 3807913229.0,
+            "value_2026": 3180670866.0,
+            "change_pct": -16.472076050029127
+          },
+          "transactions": {
+            "value_2025": 112055.0,
+            "value_2026": 92078.0,
+            "change_pct": -17.8278523939137
+          }
+        },
+        {
+          "customer": "도민",
+          "spend": {
+            "value_2025": 1203407577.0,
+            "value_2026": 1166457102.0,
+            "change_pct": -3.0704871488440033
+          },
+          "transactions": {
+            "value_2025": 40488.0,
+            "value_2026": 39480.0,
+            "change_pct": -2.4896265560165998
+          }
+        },
+        {
+          "customer": "외국인 관광객",
+          "spend": {
+            "value_2025": 406573551.0,
+            "value_2026": 634279596.0,
+            "change_pct": 56.00611363920227
+          },
+          "transactions": {
+            "value_2025": 13135.0,
+            "value_2026": 19545.0,
+            "change_pct": 48.80091358964598
+          }
+        }
+      ]
+    },
+    {
+      "month": 5,
+      "months": [
+        5
+      ],
+      "visits": {
+        "value_2025": 666157.0,
+        "value_2026": 568979.0,
+        "change_pct": -14.587852413169866
+      },
+      "spend": {
+        "value_2025": 6251633437.0,
+        "value_2026": 5744078745.0,
+        "change_pct": -8.118753236491138
+      },
+      "transactions": {
+        "value_2025": 195701.0,
+        "value_2026": 176826.0,
+        "change_pct": -9.644815304980558
+      },
+      "segments": [
+        {
+          "customer": "내국인 관광객",
+          "spend": {
+            "value_2025": 4452284363.0,
+            "value_2026": 3603413445.0,
+            "change_pct": -19.06596364451486
+          },
+          "transactions": {
+            "value_2025": 134732.0,
+            "value_2026": 106079.0,
+            "change_pct": -21.266662708191074
+          }
+        },
+        {
+          "customer": "도민",
+          "spend": {
+            "value_2025": 1359917129.0,
+            "value_2026": 1414493294.0,
+            "change_pct": 4.013197851264061
+          },
+          "transactions": {
+            "value_2025": 46312.0,
+            "value_2026": 47766.0,
+            "change_pct": 3.139575056140953
+          }
+        },
+        {
+          "customer": "외국인 관광객",
+          "spend": {
+            "value_2025": 439431945.0,
+            "value_2026": 726172006.0,
+            "change_pct": 65.25243880483018
+          },
+          "transactions": {
+            "value_2025": 14657.0,
+            "value_2026": 22981.0,
+            "change_pct": 56.79197652998567
+          }
+        }
+      ]
+    },
+    {
+      "month": 6,
+      "months": [
+        6
+      ],
+      "visits": {
+        "value_2025": 608259.0,
+        "value_2026": 535032.0,
+        "change_pct": -12.038786109206768
+      },
+      "spend": {
+        "value_2025": 6025620472.0,
+        "value_2026": 5483935779.0,
+        "change_pct": -8.989691526658772
+      },
+      "transactions": {
+        "value_2025": 191410.0,
+        "value_2026": 167934.0,
+        "change_pct": -12.264771955488218
+      },
+      "segments": [
+        {
+          "customer": "내국인 관광객",
+          "spend": {
+            "value_2025": 4323903867.0,
+            "value_2026": 3481660929.0,
+            "change_pct": -19.478761875998018
+          },
+          "transactions": {
+            "value_2025": 133076.0,
+            "value_2026": 102253.0,
+            "change_pct": -23.161952568457124
+          }
+        },
+        {
+          "customer": "도민",
+          "spend": {
+            "value_2025": 1254731378.0,
+            "value_2026": 1263788543.0,
+            "change_pct": 0.7218409580572294
+          },
+          "transactions": {
+            "value_2025": 44202.0,
+            "value_2026": 43804.0,
+            "change_pct": -0.9004117460748362
+          }
+        },
+        {
+          "customer": "외국인 관광객",
+          "spend": {
+            "value_2025": 446985227.0,
+            "value_2026": 738486307.0,
+            "change_pct": 65.21492487714812
+          },
+          "transactions": {
+            "value_2025": 14132.0,
+            "value_2026": 21877.0,
+            "change_pct": 54.80469855646759
+          }
+        }
+      ]
+    },
+    {
+      "month": 7,
+      "months": [
+        7
+      ],
+      "visits": {
+        "value_2025": 705329.0,
+        "value_2026": 708830.0,
+        "change_pct": 0.4963641080970804
+      },
+      "spend": {
+        "value_2025": 6992603853.0,
+        "value_2026": 6128474496.0,
+        "change_pct": -12.357762217993617
+      },
+      "transactions": {
+        "value_2025": 213340.0,
+        "value_2026": 186812.0,
+        "change_pct": -12.434611418393171
+      },
+      "segments": [
+        {
+          "customer": "내국인 관광객",
+          "spend": {
+            "value_2025": 5188218310.0,
+            "value_2026": 4203983258.0,
+            "change_pct": -18.97057897704385
+          },
+          "transactions": {
+            "value_2025": 151958.0,
+            "value_2026": 122730.0,
+            "change_pct": -19.23426209873781
+          }
+        },
+        {
+          "customer": "도민",
+          "spend": {
+            "value_2025": 1337708700.0,
+            "value_2026": 1252394240.0,
+            "change_pct": -6.377656062190518
+          },
+          "transactions": {
+            "value_2025": 46419.0,
+            "value_2026": 43721.0,
+            "change_pct": -5.81227514595316
+          }
+        },
+        {
+          "customer": "외국인 관광객",
+          "spend": {
+            "value_2025": 466676843.0,
+            "value_2026": 672096998.0,
+            "change_pct": 44.017644775230465
+          },
+          "transactions": {
+            "value_2025": 14963.0,
+            "value_2026": 20361.0,
+            "change_pct": 36.07565327808595
+          }
+        }
+      ]
+    },
+    {
+      "month": 8,
+      "months": [
+        8
+      ],
+      "visits": {
+        "value_2025": 823296.0,
+        "value_2026": 857855.0,
+        "change_pct": 4.197639731032332
+      },
+      "spend": {
+        "value_2025": 7989276957.0,
+        "value_2026": 7319080295.0,
+        "change_pct": -8.388702326970787
+      },
+      "transactions": {
+        "value_2025": 240362.0,
+        "value_2026": 218439.0,
+        "change_pct": -9.12082608731829
+      },
+      "segments": [
+        {
+          "customer": "내국인 관광객",
+          "spend": {
+            "value_2025": 6079741062.0,
+            "value_2026": 5184456665.0,
+            "change_pct": -14.725699464336827
+          },
+          "transactions": {
+            "value_2025": 176069.0,
+            "value_2026": 149916.0,
+            "change_pct": -14.853835712135588
+          }
+        },
+        {
+          "customer": "도민",
+          "spend": {
+            "value_2025": 1425170749.0,
+            "value_2026": 1397518418.0,
+            "change_pct": -1.9402819640666036
+          },
+          "transactions": {
+            "value_2025": 48539.0,
+            "value_2026": 46393.0,
+            "change_pct": -4.421187086672573
+          }
+        },
+        {
+          "customer": "외국인 관광객",
+          "spend": {
+            "value_2025": 484365146.0,
+            "value_2026": 737105212.0,
+            "change_pct": 52.17965580041963
+          },
+          "transactions": {
+            "value_2025": 15754.0,
+            "value_2026": 22130.0,
+            "change_pct": 40.472261013076036
+          }
+        }
+      ]
+    }
+  ],
+  "reconciliation": {
+    "groups": 48,
+    "max_amount_difference_won": 6.0,
+    "max_count_difference": 7.0
+  },
+  "sources": [
+    {
+      "regSn": 21,
+      "sha256": "16bcba2946ad0656111646d4510ca4706782e635dcbba95a4c2d79e0c87f9380",
+      "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=21"
+    },
+    {
+      "regSn": 27,
+      "sha256": "d0762ae6fc57f8f7cc8e834b1e55c73e9f03df253b147658bacd0add60185bab",
+      "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=27"
+    },
+    {
+      "regSn": 39,
+      "sha256": "1588cc341ccacbf313da4047efd135f906da5833ef53f40d9627a03905de81b1",
+      "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=39"
+    }
+  ]
+}

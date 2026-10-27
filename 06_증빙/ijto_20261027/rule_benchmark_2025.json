@@ -1,0 +1,45 @@
+{
+  "reference_years": [
+    2023,
+    2024
+  ],
+  "evaluation_year": 2025,
+  "population": 516,
+  "actual_low": 182,
+  "rules": [
+    {
+      "id": "previous_low",
+      "label": "전년도 두 지수 1 미만",
+      "flagged": 188,
+      "tp": 106,
+      "fp": 82,
+      "fn": 76,
+      "tn": 252,
+      "precision_pct": 56.38297872340426,
+      "recall_pct": 58.24175824175824
+    },
+    {
+      "id": "previous_095",
+      "label": "전년도 두 지수 0.95 이하",
+      "flagged": 83,
+      "tp": 51,
+      "fp": 32,
+      "fn": 131,
+      "tn": 302,
+      "precision_pct": 61.44578313253012,
+      "recall_pct": 28.021978021978022
+    },
+    {
+      "id": "two_year",
+      "label": "2개 연도 반복 + 평균 0.95 이하",
+      "flagged": 65,
+      "tp": 44,
+      "fp": 21,
+      "fn": 138,
+      "tn": 313,
+      "precision_pct": 67.6923076923077,
+      "recall_pct": 24.175824175824175
+    }
+  ],
+  "note": "현재 개정 자료에 대한 시간순 비교. 당시 자료 제공 지연은 재현하지 않음. 전체 정확도나 캠페인 성과가 아님."
+}

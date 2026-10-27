@@ -1,0 +1,7 @@
+{
+  "date": "2026-10-27",
+  "automated": ["source SHA-256 verification", "common January-August coverage for all customer groups", "monthly and segment sums equal aggregate totals", "benchmark confusion matrix and precision/recall arithmetic", "invalid data rejection", "failed fetch has no synthetic fallback", "JavaScript syntax and git diff whitespace checks"],
+  "browser": ["December unavailable 2026 same-month warning", "August 2025/2026 comparison and resident time-band update", "December export includes January-August trends, null current December, historical December bands, three benchmarks and null user evaluation", "desktop screenshot inspected"],
+  "not_tested": ["physical mobile device", "public deployment", "actual operator evaluation", "campaign effects", "download file completion; visible JSON export verified"],
+  "user_evaluation": "미실시"
+}

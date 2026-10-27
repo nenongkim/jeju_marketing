@@ -1,0 +1,3773 @@
+{
+  "schema_version": "1.0.0",
+  "snapshot": "2026-10-27",
+  "region": "구좌읍",
+  "common_months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "rule_benchmark": {
+    "reference_years": [
+      2023,
+      2024
+    ],
+    "evaluation_year": 2025,
+    "population": 516,
+    "actual_low": 182,
+    "rules": [
+      {
+        "id": "previous_low",
+        "label": "전년도 두 지수 1 미만",
+        "flagged": 188,
+        "tp": 106,
+        "fp": 82,
+        "fn": 76,
+        "tn": 252,
+        "precision_pct": 56.38297872340426,
+        "recall_pct": 58.24175824175824
+      },
+      {
+        "id": "previous_095",
+        "label": "전년도 두 지수 0.95 이하",
+        "flagged": 83,
+        "tp": 51,
+        "fp": 32,
+        "fn": 131,
+        "tn": 302,
+        "precision_pct": 61.44578313253012,
+        "recall_pct": 28.021978021978022
+      },
+      {
+        "id": "two_year",
+        "label": "2개 연도 반복 + 평균 0.95 이하",
+        "flagged": 65,
+        "tp": 44,
+        "fp": 21,
+        "fn": 138,
+        "tn": 313,
+        "precision_pct": 67.6923076923077,
+        "recall_pct": 24.175824175824175
+      }
+    ],
+    "note": "현재 개정 자료에 대한 시간순 비교. 당시 자료 제공 지연은 재현하지 않음. 전체 정확도나 캠페인 성과가 아님."
+  },
+  "ytd": {
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "visits": {
+      "value_2025": 4713366.0,
+      "value_2026": 4573686.0,
+      "change_pct": -2.963487240328888
+    },
+    "spend": {
+      "value_2025": 45370183178.0,
+      "value_2026": 43269525794.0,
+      "change_pct": -4.630039459524616
+    },
+    "transactions": {
+      "value_2025": 1402422.0,
+      "value_2026": 1313471.0,
+      "change_pct": -6.342670037977161
+    },
+    "segments": [
+      {
+        "customer": "내국인 관광객",
+        "spend": {
+          "value_2025": 32831722025.0,
+          "value_2026": 28769168761.0,
+          "change_pct": -12.373865924262317
+        },
+        "transactions": {
+          "value_2025": 979183.0,
+          "value_2026": 836153.0,
+          "change_pct": -14.607075490485432
+        }
+      },
+      {
+        "customer": "도민",
+        "spend": {
+          "value_2025": 9771025451.0,
+          "value_2026": 9856093658.0,
+          "change_pct": 0.870616983105843
+        },
+        "transactions": {
+          "value_2025": 332619.0,
+          "value_2026": 334776.0,
+          "change_pct": 0.6484897134559464
+        }
+      },
+      {
+        "customer": "외국인 관광객",
+        "spend": {
+          "value_2025": 2767435702.0,
+          "value_2026": 4644263375.0,
+          "change_pct": 67.81829372381205
+        },
+        "transactions": {
+          "value_2025": 90620.0,
+          "value_2026": 142542.0,
+          "change_pct": 57.29640256014126
+        }
+      }
+    ]
+  },
+  "monthly": [
+    {
+      "month": 1,
+      "months": [
+        1
+      ],
+      "visits": {
+        "value_2025": 493209.0,
+        "value_2026": 481802.0,
+        "change_pct": -2.3128126210186783
+      },
+      "spend": {
+        "value_2025": 4546311310.0,
+        "value_2026": 4680287698.0,
+        "change_pct": 2.946925075397
+      },
+      "transactions": {
+        "value_2025": 139876.0,
+        "value_2026": 140485.0,
+        "change_pct": 0.4353856272698575
+      },
+      "segments": [
+        {
+          "customer": "내국인 관광객",
+          "spend": {
+            "value_2025": 3280945620.0,
+            "value_2026": 3288263235.0,
+            "change_pct": 0.223033717943788
+          },
+          "transactions": {
+            "value_2025": 97309.0,
+            "value_2026": 94010.0,
+            "change_pct": -3.3902311194236923
+          }
+        },
+        {
+          "customer": "도민",
+          "spend": {
+            "value_2025": 1103065803.0,
+            "value_2026": 1079274786.0,
+            "change_pct": -2.1568085000274406
+          },
+          "transactions": {
+            "value_2025": 36927.0,
+            "value_2026": 36185.0,
+            "change_pct": -2.0093698377880664
+          }
+        },
+        {
+          "customer": "외국인 관광객",
+          "spend": {
+            "value_2025": 162299887.0,
+            "value_2026": 312749677.0,
+            "change_pct": 92.69864125044029
+          },
+          "transactions": {
+            "value_2025": 5640.0,
+            "value_2026": 10290.0,
+            "change_pct": 82.4468085106383
+          }
+        }
+      ]
+    },
+    {
+      "month": 2,
+      "months": [
+        2
+      ],
+      "visits": {
+        "value_2025": 403163.0,
+        "value_2026": 430932.0,
+        "change_pct": 6.887784841366895
+      },
+      "spend": {
+        "value_2025": 3603026075.0,
+        "value_2026": 4277503023.0,
+        "change_pct": 18.719735410185724
+      },
+      "transactions": {
+        "value_2025": 113094.0,
+        "value_2026": 128224.0,
+        "change_pct": 13.37825171980831
+      },
+      "segments": [
+        {
+          "customer": "내국인 관광객",
+          "spend": {
+            "value_2025": 2545889365.0,
+            "value_2026": 2837484528.0,
+            "change_pct": 11.453567739774906
+          },
+          "transactions": {
+            "value_2025": 77738.0,
+            "value_2026": 81062.0,
+            "change_pct": 4.275901103707325
+          }
+        },
+        {
+          "customer": "도민",
+          "spend": {
+            "value_2025": 931929982.0,
+            "value_2026": 1102556079.0,
+            "change_pct": 18.30889662266495
+          },
+          "transactions": {
+            "value_2025": 30803.0,
+            "value_2026": 36347.0,
+            "change_pct": 17.998246924000917
+          }
+        },
+        {
+          "customer": "외국인 관광객",
+          "spend": {
+            "value_2025": 125206728.0,
+            "value_2026": 337462416.0,
+            "change_pct": 169.52418723057758
+          },
+          "transactions": {
+            "value_2025": 4553.0,
+            "value_2026": 10815.0,
+            "change_pct": 137.53569075334946
+          }
+        }
+      ]
+    },
+    {
+      "month": 3,
+      "months": [
+        3
+      ],
+      "visits": {
+        "value_2025": 453440.0,
+        "value_2026": 463298.0,
+        "change_pct": 2.174047282992242
+      },
+      "spend": {
+        "value_2025": 4543816717.0,
+        "value_2026": 4654758194.0,
+        "change_pct": 2.441592254038971
+      },
+      "transactions": {
+        "value_2025": 142961.0,
+        "value_2026": 143648.0,
+        "change_pct": 0.48055063968495126
+      },
+      "segments": [
+        {
+          "customer": "내국인 관광객",
+          "spend": {
+            "value_2025": 3152826209.0,
+            "value_2026": 2989235835.0,
+            "change_pct": -5.188689866032514
+          },
+          "transactions": {
+            "value_2025": 96246.0,
+            "value_2026": 88025.0,
+            "change_pct": -8.541653679113937
+          }
+        },
+        {
+          "customer": "도민",
+          "spend": {
+            "value_2025": 1155094133.0,
+            "value_2026": 1179611196.0,
+            "change_pct": 2.1225164512198136
+          },
+          "transactions": {
+            "value_2025": 38929.0,
+            "value_2026": 41080.0,
+            "change_pct": 5.525443756582504
+          }
+        },
+        {
+          "customer": "외국인 관광객",
+          "spend": {
+            "value_2025": 235896375.0,
+            "value_2026": 485911163.0,
+            "change_pct": 105.98500634017797
+          },
+          "transactions": {
+            "value_2025": 7786.0,
+            "value_2026": 14543.0,
+            "change_pct": 86.78397123041357
+          }
+        }
+      ]
+    },
+    {
+      "month": 4,
+      "months": [
+        4
+      ],
+      "visits": {
+        "value_2025": 560513.0,
+        "value_2026": 526958.0,
+        "change_pct": -5.986480242206693
+      },
+      "spend": {
+        "value_2025": 5417894357.0,
+        "value_2026": 4981407564.0,
+        "change_pct": -8.056391731523016
+      },
+      "transactions": {
+        "value_2025": 165678.0,
+        "value_2026": 151103.0,
+        "change_pct": -8.797184900831734
+      },
+      "segments": [
+        {
+          "customer": "내국인 관광객",
+          "spend": {
+            "value_2025": 3807913229.0,
+            "value_2026": 3180670866.0,
+            "change_pct": -16.472076050029127
+          },
+          "transactions": {
+            "value_2025": 112055.0,
+            "value_2026": 92078.0,
+            "change_pct": -17.8278523939137
+          }
+        },
+        {
+          "customer": "도민",
+          "spend": {
+            "value_2025": 1203407577.0,
+            "value_2026": 1166457102.0,
+            "change_pct": -3.0704871488440033
+          },
+          "transactions": {
+            "value_2025": 40488.0,
+            "value_2026": 39480.0,
+            "change_pct": -2.4896265560165998
+          }
+        },
+        {
+          "customer": "외국인 관광객",
+          "spend": {
+            "value_2025": 406573551.0,
+            "value_2026": 634279596.0,
+            "change_pct": 56.00611363920227
+          },
+          "transactions": {
+            "value_2025": 13135.0,
+            "value_2026": 19545.0,
+            "change_pct": 48.80091358964598
+          }
+        }
+      ]
+    },
+    {
+      "month": 5,
+      "months": [
+        5
+      ],
+      "visits": {
+        "value_2025": 666157.0,
+        "value_2026": 568979.0,
+        "change_pct": -14.587852413169866
+      },
+      "spend": {
+        "value_2025": 6251633437.0,
+        "value_2026": 5744078745.0,
+        "change_pct": -8.118753236491138
+      },
+      "transactions": {
+        "value_2025": 195701.0,
+        "value_2026": 176826.0,
+        "change_pct": -9.644815304980558
+      },
+      "segments": [
+        {
+          "customer": "내국인 관광객",
+          "spend": {
+            "value_2025": 4452284363.0,
+            "value_2026": 3603413445.0,
+            "change_pct": -19.06596364451486
+          },
+          "transactions": {
+            "value_2025": 134732.0,
+            "value_2026": 106079.0,
+            "change_pct": -21.266662708191074
+          }
+        },
+        {
+          "customer": "도민",
+          "spend": {
+            "value_2025": 1359917129.0,
+            "value_2026": 1414493294.0,
+            "change_pct": 4.013197851264061
+          },
+          "transactions": {
+            "value_2025": 46312.0,
+            "value_2026": 47766.0,
+            "change_pct": 3.139575056140953
+          }
+        },
+        {
+          "customer": "외국인 관광객",
+          "spend": {
+            "value_2025": 439431945.0,
+            "value_2026": 726172006.0,
+            "change_pct": 65.25243880483018
+          },
+          "transactions": {
+            "value_2025": 14657.0,
+            "value_2026": 22981.0,
+            "change_pct": 56.79197652998567
+          }
+        }
+      ]
+    },
+    {
+      "month": 6,
+      "months": [
+        6
+      ],
+      "visits": {
+        "value_2025": 608259.0,
+        "value_2026": 535032.0,
+        "change_pct": -12.038786109206768
+      },
+      "spend": {
+        "value_2025": 6025620472.0,
+        "value_2026": 5483935779.0,
+        "change_pct": -8.989691526658772
+      },
+      "transactions": {
+        "value_2025": 191410.0,
+        "value_2026": 167934.0,
+        "change_pct": -12.264771955488218
+      },
+      "segments": [
+        {
+          "customer": "내국인 관광객",
+          "spend": {
+            "value_2025": 4323903867.0,
+            "value_2026": 3481660929.0,
+            "change_pct": -19.478761875998018
+          },
+          "transactions": {
+            "value_2025": 133076.0,
+            "value_2026": 102253.0,
+            "change_pct": -23.161952568457124
+          }
+        },
+        {
+          "customer": "도민",
+          "spend": {
+            "value_2025": 1254731378.0,
+            "value_2026": 1263788543.0,
+            "change_pct": 0.7218409580572294
+          },
+          "transactions": {
+            "value_2025": 44202.0,
+            "value_2026": 43804.0,
+            "change_pct": -0.9004117460748362
+          }
+        },
+        {
+          "customer": "외국인 관광객",
+          "spend": {
+            "value_2025": 446985227.0,
+            "value_2026": 738486307.0,
+            "change_pct": 65.21492487714812
+          },
+          "transactions": {
+            "value_2025": 14132.0,
+            "value_2026": 21877.0,
+            "change_pct": 54.80469855646759
+          }
+        }
+      ]
+    },
+    {
+      "month": 7,
+      "months": [
+        7
+      ],
+      "visits": {
+        "value_2025": 705329.0,
+        "value_2026": 708830.0,
+        "change_pct": 0.4963641080970804
+      },
+      "spend": {
+        "value_2025": 6992603853.0,
+        "value_2026": 6128474496.0,
+        "change_pct": -12.357762217993617
+      },
+      "transactions": {
+        "value_2025": 213340.0,
+        "value_2026": 186812.0,
+        "change_pct": -12.434611418393171
+      },
+      "segments": [
+        {
+          "customer": "내국인 관광객",
+          "spend": {
+            "value_2025": 5188218310.0,
+            "value_2026": 4203983258.0,
+            "change_pct": -18.97057897704385
+          },
+          "transactions": {
+            "value_2025": 151958.0,
+            "value_2026": 122730.0,
+            "change_pct": -19.23426209873781
+          }
+        },
+        {
+          "customer": "도민",
+          "spend": {
+            "value_2025": 1337708700.0,
+            "value_2026": 1252394240.0,
+            "change_pct": -6.377656062190518
+          },
+          "transactions": {
+            "value_2025": 46419.0,
+            "value_2026": 43721.0,
+            "change_pct": -5.81227514595316
+          }
+        },
+        {
+          "customer": "외국인 관광객",
+          "spend": {
+            "value_2025": 466676843.0,
+            "value_2026": 672096998.0,
+            "change_pct": 44.017644775230465
+          },
+          "transactions": {
+            "value_2025": 14963.0,
+            "value_2026": 20361.0,
+            "change_pct": 36.07565327808595
+          }
+        }
+      ]
+    },
+    {
+      "month": 8,
+      "months": [
+        8
+      ],
+      "visits": {
+        "value_2025": 823296.0,
+        "value_2026": 857855.0,
+        "change_pct": 4.197639731032332
+      },
+      "spend": {
+        "value_2025": 7989276957.0,
+        "value_2026": 7319080295.0,
+        "change_pct": -8.388702326970787
+      },
+      "transactions": {
+        "value_2025": 240362.0,
+        "value_2026": 218439.0,
+        "change_pct": -9.12082608731829
+      },
+      "segments": [
+        {
+          "customer": "내국인 관광객",
+          "spend": {
+            "value_2025": 6079741062.0,
+            "value_2026": 5184456665.0,
+            "change_pct": -14.725699464336827
+          },
+          "transactions": {
+            "value_2025": 176069.0,
+            "value_2026": 149916.0,
+            "change_pct": -14.853835712135588
+          }
+        },
+        {
+          "customer": "도민",
+          "spend": {
+            "value_2025": 1425170749.0,
+            "value_2026": 1397518418.0,
+            "change_pct": -1.9402819640666036
+          },
+          "transactions": {
+            "value_2025": 48539.0,
+            "value_2026": 46393.0,
+            "change_pct": -4.421187086672573
+          }
+        },
+        {
+          "customer": "외국인 관광객",
+          "spend": {
+            "value_2025": 484365146.0,
+            "value_2026": 737105212.0,
+            "change_pct": 52.17965580041963
+          },
+          "transactions": {
+            "value_2025": 15754.0,
+            "value_2026": 22130.0,
+            "change_pct": 40.472261013076036
+          }
+        }
+      ]
+    }
+  ],
+  "historical_bands": [
+    {
+      "month": 1,
+      "bands": [
+        {
+          "customer": "내국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 41169493.0,
+          "transactions": 555.0,
+          "spend_share_pct": 0.4222699649762896,
+          "count_share_pct": 0.19105977933456117,
+          "observed_year_month_hours": 14,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 781059333.0,
+          "transactions": 26849.0,
+          "spend_share_pct": 8.011220764616025,
+          "count_share_pct": 9.24281804568222,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 4522627508.0,
+          "transactions": 146582.0,
+          "spend_share_pct": 46.38798343724961,
+          "count_share_pct": 50.461125359312874,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 2097925598.0,
+          "transactions": 72669.0,
+          "spend_share_pct": 21.518141328345273,
+          "count_share_pct": 25.016438026059866,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 2198573756.0,
+          "transactions": 41943.0,
+          "spend_share_pct": 22.550475978509365,
+          "count_share_pct": 14.438955539872971,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 108211275.0,
+          "transactions": 1887.0,
+          "spend_share_pct": 1.1099085263034365,
+          "count_share_pct": 0.6496032497375079,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        },
+        {
+          "customer": "도민",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 107652578.0,
+          "transactions": 742.0,
+          "spend_share_pct": 3.257194388644487,
+          "count_share_pct": 0.7221411192214112,
+          "observed_year_month_hours": 17,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "도민",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 159010433.0,
+          "transactions": 8618.0,
+          "spend_share_pct": 4.811105314203717,
+          "count_share_pct": 8.38734793187348,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "도민",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 1478709506.0,
+          "transactions": 54951.0,
+          "spend_share_pct": 44.74063134259972,
+          "count_share_pct": 53.48029197080292,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "도민",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 505756507.0,
+          "transactions": 20280.0,
+          "spend_share_pct": 15.302441309123468,
+          "count_share_pct": 19.73722627737226,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "도민",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 874580109.0,
+          "transactions": 16645.0,
+          "spend_share_pct": 26.46176688360295,
+          "count_share_pct": 16.199513381995136,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "도민",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 179361586.0,
+          "transactions": 1514.0,
+          "spend_share_pct": 5.426860761825654,
+          "count_share_pct": 1.4734793187347932,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 255591.0,
+          "transactions": 3.0,
+          "spend_share_pct": 0.07675276631319702,
+          "count_share_pct": 0.02576876825287751,
+          "observed_year_month_hours": 2,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 31228344.0,
+          "transactions": 1110.0,
+          "spend_share_pct": 9.377723743716048,
+          "count_share_pct": 9.53444425356468,
+          "observed_year_month_hours": 11,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 143903415.0,
+          "transactions": 4997.0,
+          "spend_share_pct": 43.213513712008684,
+          "count_share_pct": 42.92217831987631,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 108541994.0,
+          "transactions": 4622.0,
+          "spend_share_pct": 32.594646527657204,
+          "count_share_pct": 39.70108228826662,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 47549946.0,
+          "transactions": 880.0,
+          "spend_share_pct": 14.279023492780018,
+          "count_share_pct": 7.558838687510737,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 1526297.0,
+          "transactions": 30.0,
+          "spend_share_pct": 0.45833975752484896,
+          "count_share_pct": 0.2576876825287751,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        }
+      ]
+    },
+    {
+      "month": 2,
+      "bands": [
+        {
+          "customer": "내국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 33984426.0,
+          "transactions": 430.0,
+          "spend_share_pct": 0.38417098969444125,
+          "count_share_pct": 0.16538652369065798,
+          "observed_year_month_hours": 13,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 715123198.0,
+          "transactions": 23994.0,
+          "spend_share_pct": 8.083984903235201,
+          "count_share_pct": 9.228568021938715,
+          "observed_year_month_hours": 14,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 4104666446.0,
+          "transactions": 131689.0,
+          "spend_share_pct": 46.400482707148996,
+          "count_share_pct": 50.65019980999781,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 1823333392.0,
+          "transactions": 63316.0,
+          "spend_share_pct": 20.61155288447604,
+          "count_share_pct": 24.35258868371558,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 2067880486.0,
+          "transactions": 38671.0,
+          "spend_share_pct": 23.37599266429988,
+          "count_share_pct": 14.873633157305662,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 101183916.0,
+          "transactions": 1897.0,
+          "spend_share_pct": 1.1438158511454397,
+          "count_share_pct": 0.7296238033515772,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        },
+        {
+          "customer": "도민",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 71799567.0,
+          "transactions": 656.0,
+          "spend_share_pct": 2.387097541355428,
+          "count_share_pct": 0.6951803653935823,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "도민",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 124590567.0,
+          "transactions": 6937.0,
+          "spend_share_pct": 4.142223255493709,
+          "count_share_pct": 7.351320418803781,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "도민",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 1401242932.0,
+          "transactions": 51365.0,
+          "spend_share_pct": 46.58668147426113,
+          "count_share_pct": 54.43283455555085,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "도민",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 467657186.0,
+          "transactions": 18675.0,
+          "spend_share_pct": 15.54805085242085,
+          "count_share_pct": 19.790386164215167,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "도민",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 821081261.0,
+          "transactions": 15318.0,
+          "spend_share_pct": 27.298229519770143,
+          "count_share_pct": 16.23288542240685,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "도민",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 121447219.0,
+          "transactions": 1413.0,
+          "spend_share_pct": 4.037717356698741,
+          "count_share_pct": 1.497393073629774,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 112996.0,
+          "transactions": 3.0,
+          "spend_share_pct": 0.03356807257899976,
+          "count_share_pct": 0.02518045996306866,
+          "observed_year_month_hours": 3,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 34667550.0,
+          "transactions": 1241.0,
+          "spend_share_pct": 10.298796723212353,
+          "count_share_pct": 10.416316938056069,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 148540240.0,
+          "transactions": 5034.0,
+          "spend_share_pct": 44.12731032268437,
+          "count_share_pct": 42.25281181802921,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 108206952.0,
+          "transactions": 4749.0,
+          "spend_share_pct": 32.14537521937363,
+          "count_share_pct": 39.860668121537685,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 44644268.0,
+          "transactions": 873.0,
+          "spend_share_pct": 13.262611317748561,
+          "count_share_pct": 7.32751384925298,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 445474.0,
+          "transactions": 14.0,
+          "spend_share_pct": 0.13233834440207917,
+          "count_share_pct": 0.11750881316098707,
+          "observed_year_month_hours": 5,
+          "expected_year_month_hours": 6
+        }
+      ]
+    },
+    {
+      "month": 3,
+      "bands": [
+        {
+          "customer": "내국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 33536516.0,
+          "transactions": 555.0,
+          "spend_share_pct": 0.33421986838957746,
+          "count_share_pct": 0.18002062939104374,
+          "observed_year_month_hours": 11,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 925620765.0,
+          "transactions": 32493.0,
+          "spend_share_pct": 9.22459716021068,
+          "count_share_pct": 10.539478037483214,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 4530520534.0,
+          "transactions": 152665.0,
+          "spend_share_pct": 45.15048541744044,
+          "count_share_pct": 49.518647542312955,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 2059092612.0,
+          "transactions": 74210.0,
+          "spend_share_pct": 20.520606904563113,
+          "count_share_pct": 24.070866499296134,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 2376882389.0,
+          "transactions": 46550.0,
+          "spend_share_pct": 23.687651968054297,
+          "count_share_pct": 15.099027564239794,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 108614794.0,
+          "transactions": 1825.0,
+          "spend_share_pct": 1.0824386813418863,
+          "count_share_pct": 0.5919597272768555,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        },
+        {
+          "customer": "도민",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 125116287.0,
+          "transactions": 901.0,
+          "spend_share_pct": 3.521939129093886,
+          "count_share_pct": 0.7892293407613742,
+          "observed_year_month_hours": 18,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "도민",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 159887832.0,
+          "transactions": 9279.0,
+          "spend_share_pct": 4.500734678825544,
+          "count_share_pct": 8.12792347716403,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "도민",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 1655634083.0,
+          "transactions": 62193.0,
+          "spend_share_pct": 46.604983253532566,
+          "count_share_pct": 54.47784726966942,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "도민",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 528114568.0,
+          "transactions": 21916.0,
+          "spend_share_pct": 14.866069048897796,
+          "count_share_pct": 19.197281056743925,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "도민",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 950316659.0,
+          "transactions": 18268.0,
+          "spend_share_pct": 26.750773273521705,
+          "count_share_pct": 16.001821972284997,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "도민",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 133413519.0,
+          "transactions": 1605.0,
+          "spend_share_pct": 3.755500616128503,
+          "count_share_pct": 1.4058968833762548,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 58082.0,
+          "transactions": 3.0,
+          "spend_share_pct": 0.00973817724596873,
+          "count_share_pct": 0.016053941242575052,
+          "observed_year_month_hours": 3,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 70439950.0,
+          "transactions": 2423.0,
+          "spend_share_pct": 11.81014287209764,
+          "count_share_pct": 12.966233210253117,
+          "observed_year_month_hours": 11,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 243871144.0,
+          "transactions": 7609.0,
+          "spend_share_pct": 40.888062144023344,
+          "count_share_pct": 40.71814630491786,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 169921410.0,
+          "transactions": 6541.0,
+          "spend_share_pct": 28.489459875089075,
+          "count_share_pct": 35.002943222561136,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 109794238.0,
+          "transactions": 2072.0,
+          "spend_share_pct": 18.40838384060596,
+          "count_share_pct": 11.087922084871837,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 2351229.0,
+          "transactions": 39.0,
+          "spend_share_pct": 0.39421309093801543,
+          "count_share_pct": 0.2087012361534757,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        }
+      ]
+    },
+    {
+      "month": 4,
+      "bands": [
+        {
+          "customer": "내국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 49549348.0,
+          "transactions": 571.0,
+          "spend_share_pct": 0.42691861896681016,
+          "count_share_pct": 0.16745260885885885,
+          "observed_year_month_hours": 14,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 1046658613.0,
+          "transactions": 36681.0,
+          "spend_share_pct": 9.018040955688802,
+          "count_share_pct": 10.757143862612613,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 5128236811.0,
+          "transactions": 165768.0,
+          "spend_share_pct": 44.18503704805316,
+          "count_share_pct": 48.613457207207205,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 2317991219.0,
+          "transactions": 80189.0,
+          "spend_share_pct": 19.97187954910472,
+          "count_share_pct": 23.51638748123123,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 2913441154.0,
+          "transactions": 55363.0,
+          "spend_share_pct": 25.1022934531197,
+          "count_share_pct": 16.23586477102102,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 150397634.0,
+          "transactions": 2420.0,
+          "spend_share_pct": 1.2958303750668076,
+          "count_share_pct": 0.7096940690690691,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        },
+        {
+          "customer": "도민",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 90578837.0,
+          "transactions": 733.0,
+          "spend_share_pct": 2.487547254217625,
+          "count_share_pct": 0.618795164449247,
+          "observed_year_month_hours": 16,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "도민",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 214655354.0,
+          "transactions": 10727.0,
+          "spend_share_pct": 5.8950341396612576,
+          "count_share_pct": 9.055683122847302,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "도민",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 1681963314.0,
+          "transactions": 63394.0,
+          "spend_share_pct": 46.191399249644554,
+          "count_share_pct": 53.51691767407307,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "도민",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 531678504.0,
+          "transactions": 22594.0,
+          "spend_share_pct": 14.601373196608105,
+          "count_share_pct": 19.073748902546093,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "도민",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 975513466.0,
+          "transactions": 19334.0,
+          "spend_share_pct": 26.79031796136462,
+          "count_share_pct": 16.321672182076046,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "도민",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 146901634.0,
+          "transactions": 1674.0,
+          "spend_share_pct": 4.034328198503834,
+          "count_share_pct": 1.4131829540082395,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 276354.0,
+          "transactions": 8.0,
+          "spend_share_pct": 0.029527565964410234,
+          "count_share_pct": 0.02697690102849435,
+          "observed_year_month_hours": 5,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 95429243.0,
+          "transactions": 3333.0,
+          "spend_share_pct": 10.196318011015704,
+          "count_share_pct": 11.23925139099646,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 388721382.0,
+          "transactions": 12219.0,
+          "spend_share_pct": 41.53367148216313,
+          "count_share_pct": 41.20384420839656,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 253478525.0,
+          "transactions": 10192.0,
+          "spend_share_pct": 27.0833925599011,
+          "count_share_pct": 34.3685719103018,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 192658267.0,
+          "transactions": 3832.0,
+          "spend_share_pct": 20.584937027983887,
+          "count_share_pct": 12.921935592648795,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 5354890.0,
+          "transactions": 71.0,
+          "spend_share_pct": 0.5721533529717707,
+          "count_share_pct": 0.23941999662788738,
+          "observed_year_month_hours": 5,
+          "expected_year_month_hours": 6
+        }
+      ]
+    },
+    {
+      "month": 5,
+      "bands": [
+        {
+          "customer": "내국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 53999466.0,
+          "transactions": 772.0,
+          "spend_share_pct": 0.42343874362186995,
+          "count_share_pct": 0.1968082394330291,
+          "observed_year_month_hours": 13,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 1246231113.0,
+          "transactions": 43824.0,
+          "spend_share_pct": 9.772365836936325,
+          "count_share_pct": 11.172181716208637,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 5571116317.0,
+          "transactions": 187717.0,
+          "spend_share_pct": 43.686107818951015,
+          "count_share_pct": 47.855249069494725,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 2575444522.0,
+          "transactions": 93954.0,
+          "spend_share_pct": 20.19544031534511,
+          "count_share_pct": 23.951970631723857,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 3147751307.0,
+          "transactions": 63249.0,
+          "spend_share_pct": 24.68320443521014,
+          "count_share_pct": 16.124254321113547,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 158061238.0,
+          "transactions": 2744.0,
+          "spend_share_pct": 1.2394428499355414,
+          "count_share_pct": 0.6995360220262071,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        },
+        {
+          "customer": "도민",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 113994574.0,
+          "transactions": 837.0,
+          "spend_share_pct": 2.7562214665878595,
+          "count_share_pct": 0.6190736823419772,
+          "observed_year_month_hours": 16,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "도민",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 266345147.0,
+          "transactions": 13197.0,
+          "spend_share_pct": 6.439834686192161,
+          "count_share_pct": 9.760950281800564,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "도민",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 1914749006.0,
+          "transactions": 71676.0,
+          "spend_share_pct": 46.295820303385376,
+          "count_share_pct": 53.01400866851082,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "도민",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 624252386.0,
+          "transactions": 25772.0,
+          "spend_share_pct": 15.093506352871591,
+          "count_share_pct": 19.06184819751187,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "도민",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 1080762171.0,
+          "transactions": 21925.0,
+          "spend_share_pct": 26.131242843069874,
+          "count_share_pct": 16.21647608763184,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "도민",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 135797092.0,
+          "transactions": 1795.0,
+          "spend_share_pct": 3.2833743478931416,
+          "count_share_pct": 1.327643082202926,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 1312681.0,
+          "transactions": 20.0,
+          "spend_share_pct": 0.12524385587870324,
+          "count_share_pct": 0.05730823232757386,
+          "observed_year_month_hours": 7,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 105654927.0,
+          "transactions": 3730.0,
+          "spend_share_pct": 10.080613987757049,
+          "count_share_pct": 10.687985329092523,
+          "observed_year_month_hours": 14,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 420350339.0,
+          "transactions": 14198.0,
+          "spend_share_pct": 40.10593379220089,
+          "count_share_pct": 40.68311412934468,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 298418689.0,
+          "transactions": 12130.0,
+          "spend_share_pct": 28.47234573870389,
+          "count_share_pct": 34.757442906673546,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 217776795.0,
+          "transactions": 4737.0,
+          "spend_share_pct": 20.77824355399819,
+          "count_share_pct": 13.573454826785868,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 4586686.0,
+          "transactions": 84.0,
+          "spend_share_pct": 0.43761907146128104,
+          "count_share_pct": 0.2406945757758102,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        }
+      ]
+    },
+    {
+      "month": 6,
+      "bands": [
+        {
+          "customer": "내국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 65284995.0,
+          "transactions": 992.0,
+          "spend_share_pct": 0.507345914159942,
+          "count_share_pct": 0.25075834175935285,
+          "observed_year_month_hours": 13,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 1214150111.0,
+          "transactions": 43002.0,
+          "spend_share_pct": 9.43546213019837,
+          "count_share_pct": 10.870070778564207,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 5629084364.0,
+          "transactions": 189451.0,
+          "spend_share_pct": 43.74501296258069,
+          "count_share_pct": 47.88953488372093,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 2515884681.0,
+          "transactions": 92609.0,
+          "spend_share_pct": 19.551564848905006,
+          "count_share_pct": 23.409757330637007,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 3235059825.0,
+          "transactions": 65877.0,
+          "spend_share_pct": 25.14045354949827,
+          "count_share_pct": 16.65242669362993,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 208481380.0,
+          "transactions": 3669.0,
+          "spend_share_pct": 1.6201605946577196,
+          "count_share_pct": 0.9274519716885743,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        },
+        {
+          "customer": "도민",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 107773499.0,
+          "transactions": 873.0,
+          "spend_share_pct": 2.8726641260367347,
+          "count_share_pct": 0.6966555744415982,
+          "observed_year_month_hours": 16,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "도민",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 218873133.0,
+          "transactions": 11191.0,
+          "spend_share_pct": 5.833985192615552,
+          "count_share_pct": 8.930438182790294,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "도민",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 1750899754.0,
+          "transactions": 66137.0,
+          "spend_share_pct": 46.6696076333417,
+          "count_share_pct": 52.777445277026324,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "도민",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 560266623.0,
+          "transactions": 24105.0,
+          "spend_share_pct": 14.933706744622327,
+          "count_share_pct": 19.23583347298365,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "도민",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 958910857.0,
+          "transactions": 21039.0,
+          "spend_share_pct": 25.55942643164106,
+          "count_share_pct": 16.789159943501474,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "도민",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 154967744.0,
+          "transactions": 1968.0,
+          "spend_share_pct": 4.13060987174263,
+          "count_share_pct": 1.5704675492566613,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 683337.0,
+          "transactions": 10.0,
+          "spend_share_pct": 0.06087545331527946,
+          "count_share_pct": 0.028115159694107064,
+          "observed_year_month_hours": 4,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 105864368.0,
+          "transactions": 3544.0,
+          "spend_share_pct": 9.430985578031871,
+          "count_share_pct": 9.964012595591543,
+          "observed_year_month_hours": 14,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 443193879.0,
+          "transactions": 14148.0,
+          "spend_share_pct": 39.482171008861094,
+          "count_share_pct": 39.77732793522267,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 319112297.0,
+          "transactions": 12627.0,
+          "spend_share_pct": 28.428294879912976,
+          "count_share_pct": 35.50101214574899,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 247183492.0,
+          "transactions": 5108.0,
+          "spend_share_pct": 22.020477637759633,
+          "count_share_pct": 14.361223571749887,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 6479114.0,
+          "transactions": 131.0,
+          "spend_share_pct": 0.57719544211915,
+          "count_share_pct": 0.3683085919928025,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        }
+      ]
+    },
+    {
+      "month": 7,
+      "bands": [
+        {
+          "customer": "내국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 75974981.0,
+          "transactions": 1257.0,
+          "spend_share_pct": 0.5352407575215085,
+          "count_share_pct": 0.291252012929087,
+          "observed_year_month_hours": 16,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 1215937078.0,
+          "transactions": 43558.0,
+          "spend_share_pct": 8.566228963284763,
+          "count_share_pct": 10.09256577499218,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 6062992724.0,
+          "transactions": 205497.0,
+          "spend_share_pct": 42.7135456399937,
+          "count_share_pct": 47.61449077238551,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 2682523083.0,
+          "transactions": 99005.0,
+          "spend_share_pct": 18.89826977401748,
+          "count_share_pct": 22.93986120926353,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 3896616549.0,
+          "transactions": 77706.0,
+          "spend_share_pct": 27.45151056316297,
+          "count_share_pct": 18.004796274198593,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 260498869.0,
+          "transactions": 4562.0,
+          "spend_share_pct": 1.8352043020195845,
+          "count_share_pct": 1.0570339562311017,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        },
+        {
+          "customer": "도민",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 93695967.0,
+          "transactions": 1001.0,
+          "spend_share_pct": 2.302795634085219,
+          "count_share_pct": 0.7302092147880132,
+          "observed_year_month_hours": 16,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "도민",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 242757473.0,
+          "transactions": 13058.0,
+          "spend_share_pct": 5.966327760574375,
+          "count_share_pct": 9.525546380321554,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "도민",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 1848871853.0,
+          "transactions": 71082.0,
+          "spend_share_pct": 45.440312613150674,
+          "count_share_pct": 51.85287852703452,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "도민",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 614342961.0,
+          "transactions": 25627.0,
+          "spend_share_pct": 15.098902692597068,
+          "count_share_pct": 18.694377170202213,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "도민",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 1089605848.0,
+          "transactions": 23968.0,
+          "spend_share_pct": 26.77959009322272,
+          "count_share_pct": 17.48417028974935,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "도민",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 179518005.0,
+          "transactions": 2348.0,
+          "spend_share_pct": 4.412071206369945,
+          "count_share_pct": 1.7128184179043506,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 1080832.0,
+          "transactions": 28.0,
+          "spend_share_pct": 0.09381725202526814,
+          "count_share_pct": 0.07345225603357818,
+          "observed_year_month_hours": 8,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 100490394.0,
+          "transactions": 3561.0,
+          "spend_share_pct": 8.72266237492644,
+          "count_share_pct": 9.341552990556139,
+          "observed_year_month_hours": 14,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 447927505.0,
+          "transactions": 14891.0,
+          "spend_share_pct": 38.88053612923614,
+          "count_share_pct": 39.06348373557188,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 369417473.0,
+          "transactions": 14609.0,
+          "spend_share_pct": 32.06579021252025,
+          "count_share_pct": 38.32371458551941,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 224199379.0,
+          "transactions": 4874.0,
+          "spend_share_pct": 19.46072067032768,
+          "count_share_pct": 12.785939139559286,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 8945447.0,
+          "transactions": 157.0,
+          "spend_share_pct": 0.776473360964219,
+          "count_share_pct": 0.4118572927597062,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        }
+      ]
+    },
+    {
+      "month": 8,
+      "bands": [
+        {
+          "customer": "내국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 105148821.0,
+          "transactions": 1722.0,
+          "spend_share_pct": 0.614066291597459,
+          "count_share_pct": 0.332079197610264,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 1514998842.0,
+          "transactions": 53877.0,
+          "spend_share_pct": 8.847552562490307,
+          "count_share_pct": 10.389913431851447,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 7312671547.0,
+          "transactions": 246304.0,
+          "spend_share_pct": 42.70580550338784,
+          "count_share_pct": 47.49851027189225,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 3230652481.0,
+          "transactions": 117910.0,
+          "spend_share_pct": 18.866923752267276,
+          "count_share_pct": 22.738361318365985,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 4636003190.0,
+          "transactions": 93201.0,
+          "spend_share_pct": 27.07413416187795,
+          "count_share_pct": 17.973352669264933,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 323891511.0,
+          "transactions": 5537.0,
+          "spend_share_pct": 1.8915177283791662,
+          "count_share_pct": 1.067783111015117,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        },
+        {
+          "customer": "도민",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 110491673.0,
+          "transactions": 1034.0,
+          "spend_share_pct": 2.6023035200516538,
+          "count_share_pct": 0.7258483440268437,
+          "observed_year_month_hours": 18,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "도민",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 270866670.0,
+          "transactions": 14228.0,
+          "spend_share_pct": 6.379460729186983,
+          "count_share_pct": 9.987785530767827,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "도민",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 1943069976.0,
+          "transactions": 73725.0,
+          "spend_share_pct": 45.76324804360128,
+          "count_share_pct": 51.753548513906246,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "도민",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 648893561.0,
+          "transactions": 27465.0,
+          "spend_share_pct": 15.282762511245101,
+          "count_share_pct": 19.279907900094067,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "도민",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 1130690721.0,
+          "transactions": 24037.0,
+          "spend_share_pct": 26.630065085067926,
+          "count_share_pct": 16.873517065157877,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "도민",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 141905377.0,
+          "transactions": 1965.0,
+          "spend_share_pct": 3.342160110847059,
+          "count_share_pct": 1.379392646047145,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 1314575.0,
+          "transactions": 21.0,
+          "spend_share_pct": 0.11206714700114014,
+          "count_share_pct": 0.05413208228076507,
+          "observed_year_month_hours": 7,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 108873789.0,
+          "transactions": 3639.0,
+          "spend_share_pct": 9.281459723815008,
+          "count_share_pct": 9.380316543795432,
+          "observed_year_month_hours": 14,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 460277569.0,
+          "transactions": 15647.0,
+          "spend_share_pct": 39.23853259528777,
+          "count_share_pct": 40.333556735577666,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 364118148.0,
+          "transactions": 14553.0,
+          "spend_share_pct": 31.040969147974746,
+          "count_share_pct": 37.51353302057019,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 232391250.0,
+          "transactions": 4831.0,
+          "spend_share_pct": 19.811288344543833,
+          "count_share_pct": 12.452956642779812,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 6049088.0,
+          "transactions": 103.0,
+          "spend_share_pct": 0.5156830413775043,
+          "count_share_pct": 0.2655049749961334,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        }
+      ]
+    },
+    {
+      "month": 9,
+      "bands": [
+        {
+          "customer": "내국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 69389629.0,
+          "transactions": 949.0,
+          "spend_share_pct": 0.5671550964277702,
+          "count_share_pct": 0.2519848118743528,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 1166683257.0,
+          "transactions": 42794.0,
+          "spend_share_pct": 9.53586817886719,
+          "count_share_pct": 11.3629484081676,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 5384252052.0,
+          "transactions": 183875.0,
+          "spend_share_pct": 44.00810374333432,
+          "count_share_pct": 48.823716842356816,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 2358383211.0,
+          "transactions": 86341.0,
+          "spend_share_pct": 19.276209957086518,
+          "count_share_pct": 22.925838400467327,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 3088597132.0,
+          "transactions": 59730.0,
+          "spend_share_pct": 25.24460253600714,
+          "count_share_pct": 15.859908127771435,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 167377866.0,
+          "transactions": 2921.0,
+          "spend_share_pct": 1.368060488277065,
+          "count_share_pct": 0.7756034093624704,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        },
+        {
+          "customer": "도민",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 68985531.0,
+          "transactions": 732.0,
+          "spend_share_pct": 1.819671562676036,
+          "count_share_pct": 0.5700401831604522,
+          "observed_year_month_hours": 17,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "도민",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 225128787.0,
+          "transactions": 12587.0,
+          "spend_share_pct": 5.938353241691369,
+          "count_share_pct": 9.802043422733078,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "도민",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 1804872638.0,
+          "transactions": 68032.0,
+          "spend_share_pct": 47.60817762815625,
+          "count_share_pct": 52.979472323458864,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "도민",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 583293077.0,
+          "transactions": 24685.0,
+          "spend_share_pct": 15.385861492067132,
+          "count_share_pct": 19.223281313272903,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "도민",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 970800824.0,
+          "transactions": 20663.0,
+          "spend_share_pct": 25.6073792119577,
+          "count_share_pct": 16.091175279568887,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "도민",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 138017076.0,
+          "transactions": 1713.0,
+          "spend_share_pct": 3.6405568634515144,
+          "count_share_pct": 1.3339874778058125,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 571562.0,
+          "transactions": 14.0,
+          "spend_share_pct": 0.04989239813560383,
+          "count_share_pct": 0.03646498059542104,
+          "observed_year_month_hours": 4,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 123338422.0,
+          "transactions": 4365.0,
+          "spend_share_pct": 10.766372949638216,
+          "count_share_pct": 11.36926002135806,
+          "observed_year_month_hours": 13,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 460178281.0,
+          "transactions": 15740.0,
+          "spend_share_pct": 40.16956692189085,
+          "count_share_pct": 40.997056755137656,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 328929509.0,
+          "transactions": 13569.0,
+          "spend_share_pct": 28.71268912484854,
+          "count_share_pct": 35.342380121376294,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 227983836.0,
+          "transactions": 4629.0,
+          "spend_share_pct": 19.90100866431675,
+          "count_share_pct": 12.056885369728857,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 4587741.0,
+          "transactions": 76.0,
+          "spend_share_pct": 0.400469941170045,
+          "count_share_pct": 0.19795275180371422,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        }
+      ]
+    },
+    {
+      "month": 10,
+      "bands": [
+        {
+          "customer": "내국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 40712502.0,
+          "transactions": 679.0,
+          "spend_share_pct": 0.3214774804056899,
+          "count_share_pct": 0.17817594021265654,
+          "observed_year_month_hours": 14,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 1275851937.0,
+          "transactions": 45128.0,
+          "spend_share_pct": 10.07448930742402,
+          "count_share_pct": 11.842008586033526,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 5649451148.0,
+          "transactions": 187289.0,
+          "spend_share_pct": 44.60967102277508,
+          "count_share_pct": 49.14638242487221,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 2575099025.0,
+          "transactions": 90413.0,
+          "spend_share_pct": 20.33371337266741,
+          "count_share_pct": 23.725215438066147,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 2995342868.0,
+          "transactions": 55333.0,
+          "spend_share_pct": 23.65207812960729,
+          "count_share_pct": 14.51989587597485,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 127727255.0,
+          "transactions": 2242.0,
+          "spend_share_pct": 1.008570687120508,
+          "count_share_pct": 0.5883217348406126,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        },
+        {
+          "customer": "도민",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 94754418.0,
+          "transactions": 816.0,
+          "spend_share_pct": 2.297727441212999,
+          "count_share_pct": 0.6086645184389545,
+          "observed_year_month_hours": 16,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "도민",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 207635851.0,
+          "transactions": 12489.0,
+          "spend_share_pct": 5.03502214136668,
+          "count_share_pct": 9.315699964196204,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "도민",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 1984495501.0,
+          "transactions": 72791.0,
+          "spend_share_pct": 48.12260859025527,
+          "count_share_pct": 54.295709511874925,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "도민",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 669463336.0,
+          "transactions": 26897.0,
+          "spend_share_pct": 16.234011146722448,
+          "count_share_pct": 20.06280582408402,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "도민",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 1040047897.0,
+          "transactions": 19373.0,
+          "spend_share_pct": 25.220423950182152,
+          "count_share_pct": 14.450560926124837,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "도민",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 127434932.0,
+          "transactions": 1698.0,
+          "spend_share_pct": 3.0902067302604563,
+          "count_share_pct": 1.2665592552810598,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 588368.0,
+          "transactions": 7.0,
+          "spend_share_pct": 0.04732656903569646,
+          "count_share_pct": 0.017302320982771832,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 142437283.0,
+          "transactions": 4987.0,
+          "spend_share_pct": 11.457230690922236,
+          "count_share_pct": 12.326667820154732,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 505045755.0,
+          "transactions": 16713.0,
+          "spend_share_pct": 40.62437588412854,
+          "count_share_pct": 41.31052722643795,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 343139506.0,
+          "transactions": 13964.0,
+          "spend_share_pct": 27.601119570717273,
+          "count_share_pct": 34.51565860048941,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 248159292.0,
+          "transactions": 4700.0,
+          "spend_share_pct": 19.96119412457434,
+          "count_share_pct": 11.617272659861086,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 3838446.0,
+          "transactions": 86.0,
+          "spend_share_pct": 0.3087531606219117,
+          "count_share_pct": 0.21257137207405394,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        }
+      ]
+    },
+    {
+      "month": 11,
+      "bands": [
+        {
+          "customer": "내국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 38941903.0,
+          "transactions": 544.0,
+          "spend_share_pct": 0.39063083775822305,
+          "count_share_pct": 0.18380241240666284,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 947357935.0,
+          "transactions": 32833.0,
+          "spend_share_pct": 9.503059565577733,
+          "count_share_pct": 11.09335405615434,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 4568746172.0,
+          "transactions": 149804.0,
+          "spend_share_pct": 45.82963356138591,
+          "count_share_pct": 50.61458931648478,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 2063513164.0,
+          "transactions": 71279.0,
+          "spend_share_pct": 20.69934476439021,
+          "count_share_pct": 24.08318410649728,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 2221114065.0,
+          "transactions": 39633.0,
+          "spend_share_pct": 22.280258054351435,
+          "count_share_pct": 13.390884211237626,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 129304946.0,
+          "transactions": 1877.0,
+          "spend_share_pct": 1.2970732165364849,
+          "count_share_pct": 0.6341858972193127,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        },
+        {
+          "customer": "도민",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 74810357.0,
+          "transactions": 669.0,
+          "spend_share_pct": 2.19235172891968,
+          "count_share_pct": 0.5971241643385667,
+          "observed_year_month_hours": 17,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "도민",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 206918855.0,
+          "transactions": 10612.0,
+          "spend_share_pct": 6.0638516870776416,
+          "count_share_pct": 9.471870899792034,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "도민",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 1585881204.0,
+          "transactions": 60989.0,
+          "spend_share_pct": 46.47497403936495,
+          "count_share_pct": 54.4364808054482,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "도민",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 524959219.0,
+          "transactions": 21134.0,
+          "spend_share_pct": 15.384170020562461,
+          "count_share_pct": 18.863411194516097,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "도민",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 905955952.0,
+          "transactions": 17179.0,
+          "spend_share_pct": 26.549453542806578,
+          "count_share_pct": 15.333327382918142,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "도민",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 113808119.0,
+          "transactions": 1454.0,
+          "spend_share_pct": 3.335198981268686,
+          "count_share_pct": 1.2977855529869597,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 277293.0,
+          "transactions": 4.0,
+          "spend_share_pct": 0.032614778112311366,
+          "count_share_pct": 0.015140618494265491,
+          "observed_year_month_hours": 3,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 110542427.0,
+          "transactions": 3634.0,
+          "spend_share_pct": 13.00183101845837,
+          "count_share_pct": 13.755251902040198,
+          "observed_year_month_hours": 13,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 356023736.0,
+          "transactions": 11412.0,
+          "spend_share_pct": 41.87496674043744,
+          "count_share_pct": 43.19618456413944,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 229177955.0,
+          "transactions": 8665.0,
+          "spend_share_pct": 26.95556018564579,
+          "count_share_pct": 32.79836481320262,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 152422921.0,
+          "transactions": 2665.0,
+          "spend_share_pct": 17.9277506018737,
+          "count_share_pct": 10.087437071804382,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 1762280.0,
+          "transactions": 39.0,
+          "spend_share_pct": 0.20727667547238507,
+          "count_share_pct": 0.14762103031908855,
+          "observed_year_month_hours": 5,
+          "expected_year_month_hours": 6
+        }
+      ]
+    },
+    {
+      "month": 12,
+      "bands": [
+        {
+          "customer": "내국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 49470177.0,
+          "transactions": 651.0,
+          "spend_share_pct": 0.5287659937641143,
+          "count_share_pct": 0.23040006795209378,
+          "observed_year_month_hours": 13,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 819452300.0,
+          "transactions": 28701.0,
+          "spend_share_pct": 8.758782281126447,
+          "count_share_pct": 10.157776267731249,
+          "observed_year_month_hours": 14,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 4306503784.0,
+          "transactions": 142481.0,
+          "spend_share_pct": 46.03041450600992,
+          "count_share_pct": 50.42647017186217,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 1976431244.0,
+          "transactions": 69444.0,
+          "spend_share_pct": 21.125245435044725,
+          "count_share_pct": 24.577422916843624,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 2097091265.0,
+          "transactions": 39416.0,
+          "spend_share_pct": 22.41492984251438,
+          "count_share_pct": 13.94999858433138,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 106830078.0,
+          "transactions": 1859.0,
+          "spend_share_pct": 1.141861941540412,
+          "count_share_pct": 0.6579319912794813,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        },
+        {
+          "customer": "도민",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 90722580.0,
+          "transactions": 737.0,
+          "spend_share_pct": 2.615389223231593,
+          "count_share_pct": 0.6788935049143784,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "도민",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 171418550.0,
+          "transactions": 9728.0,
+          "spend_share_pct": 4.941727057718002,
+          "count_share_pct": 8.961025801637819,
+          "observed_year_month_hours": 15,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "도민",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 1532321419.0,
+          "transactions": 57744.0,
+          "spend_share_pct": 44.174415297487606,
+          "count_share_pct": 53.19135216794554,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "도민",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 599600358.0,
+          "transactions": 21191.0,
+          "spend_share_pct": 17.28553480907405,
+          "count_share_pct": 19.52026087196824,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "도민",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 949142651.0,
+          "transactions": 17590.0,
+          "spend_share_pct": 27.362289087621466,
+          "count_share_pct": 16.203170626111145,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "도민",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 125592860.0,
+          "transactions": 1569.0,
+          "spend_share_pct": 3.620644524867285,
+          "count_share_pct": 1.445297027422876,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 984855.0,
+          "transactions": 12.0,
+          "spend_share_pct": 0.12553236650784352,
+          "count_share_pct": 0.050010418837257764,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 18
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 82445584.0,
+          "transactions": 2669.0,
+          "spend_share_pct": 10.508744198527905,
+          "count_share_pct": 11.123150656386747,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 15
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 342866654.0,
+          "transactions": 10415.0,
+          "spend_share_pct": 43.70274047778198,
+          "count_share_pct": 43.404876015836635,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 226654820.0,
+          "transactions": 8626.0,
+          "spend_share_pct": 28.89005583056318,
+          "count_share_pct": 35.94915607418212,
+          "observed_year_month_hours": 9,
+          "expected_year_month_hours": 9
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 129338409.0,
+          "transactions": 2230.0,
+          "spend_share_pct": 16.485834526026032,
+          "count_share_pct": 9.293602833923734,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 12
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 2252364.0,
+          "transactions": 43.0,
+          "spend_share_pct": 0.2870926005930543,
+          "count_share_pct": 0.179204000833507,
+          "observed_year_month_hours": 6,
+          "expected_year_month_hours": 6
+        }
+      ]
+    }
+  ],
+  "recent_bands": [
+    {
+      "year": 2025,
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "bands": [
+        {
+          "customer": "내국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 133152297.0,
+          "transactions": 1679.0,
+          "spend_share_pct": 0.4055598938444314,
+          "count_share_pct": 0.17147070598135575,
+          "observed_year_month_hours": 37,
+          "expected_year_month_hours": 48
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 2896999908.0,
+          "transactions": 102805.0,
+          "spend_share_pct": 8.82378300357678,
+          "count_share_pct": 10.499133965701773,
+          "observed_year_month_hours": 39,
+          "expected_year_month_hours": 40
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 14474093385.0,
+          "transactions": 476488.0,
+          "spend_share_pct": 44.08569667194691,
+          "count_share_pct": 48.6621404119382,
+          "observed_year_month_hours": 32,
+          "expected_year_month_hours": 32
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 6643058939.0,
+          "transactions": 235130.0,
+          "spend_share_pct": 20.233659792614326,
+          "count_share_pct": 24.013047705417616,
+          "observed_year_month_hours": 24,
+          "expected_year_month_hours": 24
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 8227501267.0,
+          "transactions": 155185.0,
+          "spend_share_pct": 25.059609301741485,
+          "count_share_pct": 15.848529784226738,
+          "observed_year_month_hours": 32,
+          "expected_year_month_hours": 32
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 456916231.0,
+          "transactions": 7889.0,
+          "spend_share_pct": 1.3916913362760666,
+          "count_share_pct": 0.8056774267343154,
+          "observed_year_month_hours": 16,
+          "expected_year_month_hours": 16
+        },
+        {
+          "customer": "도민",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 209906867.0,
+          "transactions": 2047.0,
+          "spend_share_pct": 2.1482583164097617,
+          "count_share_pct": 0.6154262435548608,
+          "observed_year_month_hours": 44,
+          "expected_year_month_hours": 48
+        },
+        {
+          "customer": "도민",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 520633251.0,
+          "transactions": 30524.0,
+          "spend_share_pct": 5.328337882629637,
+          "count_share_pct": 9.176976384107752,
+          "observed_year_month_hours": 40,
+          "expected_year_month_hours": 40
+        },
+        {
+          "customer": "도민",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 4640952285.0,
+          "transactions": 178227.0,
+          "spend_share_pct": 47.49708518260213,
+          "count_share_pct": 53.58357259895074,
+          "observed_year_month_hours": 32,
+          "expected_year_month_hours": 32
+        },
+        {
+          "customer": "도민",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 1480500463.0,
+          "transactions": 64499.0,
+          "spend_share_pct": 15.151945610661,
+          "count_share_pct": 19.391488658058115,
+          "observed_year_month_hours": 24,
+          "expected_year_month_hours": 24
+        },
+        {
+          "customer": "도민",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 2600997170.0,
+          "transactions": 52957.0,
+          "spend_share_pct": 26.61949025903357,
+          "count_share_pct": 15.921410639929046,
+          "observed_year_month_hours": 32,
+          "expected_year_month_hours": 32
+        },
+        {
+          "customer": "도민",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 318035422.0,
+          "transactions": 4361.0,
+          "spend_share_pct": 3.254882748663902,
+          "count_share_pct": 1.3111254753994859,
+          "observed_year_month_hours": 16,
+          "expected_year_month_hours": 16
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 1819234.0,
+          "transactions": 32.0,
+          "spend_share_pct": 0.06573717329627984,
+          "count_share_pct": 0.03532164775486776,
+          "observed_year_month_hours": 11,
+          "expected_year_month_hours": 48
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 300895147.0,
+          "transactions": 10099.0,
+          "spend_share_pct": 10.872705997331074,
+          "count_share_pct": 11.1472912711378,
+          "observed_year_month_hours": 33,
+          "expected_year_month_hours": 40
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 1073478967.0,
+          "transactions": 34945.0,
+          "spend_share_pct": 38.78966250828122,
+          "count_share_pct": 38.572343149807935,
+          "observed_year_month_hours": 32,
+          "expected_year_month_hours": 32
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 841377938.0,
+          "transactions": 34378.0,
+          "spend_share_pct": 30.40279992456858,
+          "count_share_pct": 37.94648770365138,
+          "observed_year_month_hours": 24,
+          "expected_year_month_hours": 24
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 531720400.0,
+          "transactions": 10856.0,
+          "spend_share_pct": 19.213469009466202,
+          "count_share_pct": 11.982869000838889,
+          "observed_year_month_hours": 32,
+          "expected_year_month_hours": 32
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 18144011.0,
+          "transactions": 286.0,
+          "spend_share_pct": 0.6556253870566446,
+          "count_share_pct": 0.31568722680913064,
+          "observed_year_month_hours": 16,
+          "expected_year_month_hours": 16
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "bands": [
+        {
+          "customer": "내국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 79264686.0,
+          "transactions": 1245.0,
+          "spend_share_pct": 0.27551955581061577,
+          "count_share_pct": 0.14889886597666893,
+          "observed_year_month_hours": 35,
+          "expected_year_month_hours": 48
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 2411345960.0,
+          "transactions": 89458.0,
+          "spend_share_pct": 8.381701881780279,
+          "count_share_pct": 10.698951608466546,
+          "observed_year_month_hours": 40,
+          "expected_year_month_hours": 40
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 13228637889.0,
+          "transactions": 420631.0,
+          "spend_share_pct": 45.981995502470824,
+          "count_share_pct": 50.30640875070861,
+          "observed_year_month_hours": 32,
+          "expected_year_month_hours": 32
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 5444704801.0,
+          "transactions": 189947.0,
+          "spend_share_pct": 18.925485282203063,
+          "count_share_pct": 22.71718304873119,
+          "observed_year_month_hours": 24,
+          "expected_year_month_hours": 24
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 7244558571.0,
+          "transactions": 128658.0,
+          "spend_share_pct": 25.18167497094367,
+          "count_share_pct": 15.387172930784153,
+          "observed_year_month_hours": 32,
+          "expected_year_month_hours": 32
+        },
+        {
+          "customer": "내국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 360656861.0,
+          "transactions": 6199.0,
+          "spend_share_pct": 1.2536228067915514,
+          "count_share_pct": 0.7413847953328279,
+          "observed_year_month_hours": 16,
+          "expected_year_month_hours": 16
+        },
+        {
+          "customer": "도민",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 212217200.0,
+          "transactions": 1768.0,
+          "spend_share_pct": 2.1531572990659176,
+          "count_share_pct": 0.5281190538066093,
+          "observed_year_month_hours": 42,
+          "expected_year_month_hours": 48
+        },
+        {
+          "customer": "도민",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 539819449.0,
+          "transactions": 33638.0,
+          "spend_share_pct": 5.477012168627669,
+          "count_share_pct": 10.048002676440454,
+          "observed_year_month_hours": 40,
+          "expected_year_month_hours": 40
+        },
+        {
+          "customer": "도민",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 4755784896.0,
+          "transactions": 181293.0,
+          "spend_share_pct": 48.25222913887209,
+          "count_share_pct": 54.15400883583801,
+          "observed_year_month_hours": 32,
+          "expected_year_month_hours": 32
+        },
+        {
+          "customer": "도민",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 1486749995.0,
+          "transactions": 62899.0,
+          "spend_share_pct": 15.084576573531582,
+          "count_share_pct": 18.788552242863073,
+          "observed_year_month_hours": 24,
+          "expected_year_month_hours": 24
+        },
+        {
+          "customer": "도민",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 2557945247.0,
+          "transactions": 50882.0,
+          "spend_share_pct": 25.952931615293302,
+          "count_share_pct": 15.198955710287269,
+          "observed_year_month_hours": 32,
+          "expected_year_month_hours": 32
+        },
+        {
+          "customer": "도민",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 303576871.0,
+          "transactions": 4293.0,
+          "spend_share_pct": 3.0800932046094402,
+          "count_share_pct": 1.2823614807645778,
+          "observed_year_month_hours": 16,
+          "expected_year_month_hours": 16
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "새벽",
+          "start": 0,
+          "end": 5,
+          "amount": 2342731.0,
+          "transactions": 34.0,
+          "spend_share_pct": 0.05044354308327641,
+          "count_share_pct": 0.023853790297120005,
+          "observed_year_month_hours": 12,
+          "expected_year_month_hours": 48
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "아침",
+          "start": 6,
+          "end": 10,
+          "amount": 555431226.0,
+          "transactions": 18606.0,
+          "spend_share_pct": 11.959511774304449,
+          "count_share_pct": 13.053635949065141,
+          "observed_year_month_hours": 33,
+          "expected_year_month_hours": 40
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "점심",
+          "start": 11,
+          "end": 14,
+          "amount": 1854876075.0,
+          "transactions": 57351.0,
+          "spend_share_pct": 39.93908016046279,
+          "count_share_pct": 40.23643315676851,
+          "observed_year_month_hours": 32,
+          "expected_year_month_hours": 32
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "오후",
+          "start": 15,
+          "end": 17,
+          "amount": 1306937078.0,
+          "transactions": 49788.0,
+          "spend_share_pct": 28.140890610669505,
+          "count_share_pct": 34.93036797979444,
+          "observed_year_month_hours": 24,
+          "expected_year_month_hours": 24
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "저녁",
+          "start": 18,
+          "end": 21,
+          "amount": 903175860.0,
+          "transactions": 16347.0,
+          "spend_share_pct": 19.44712833256794,
+          "count_share_pct": 11.468762058441786,
+          "observed_year_month_hours": 32,
+          "expected_year_month_hours": 32
+        },
+        {
+          "customer": "외국인 관광객",
+          "band": "야간",
+          "start": 22,
+          "end": 23,
+          "amount": 21500412.0,
+          "transactions": 409.0,
+          "spend_share_pct": 0.4629455789120446,
+          "count_share_pct": 0.28694706563300243,
+          "observed_year_month_hours": 16,
+          "expected_year_month_hours": 16
+        }
+      ]
+    }
+  ],
+  "reconciliation": {
+    "groups": 48,
+    "max_amount_difference_won": 6.0,
+    "max_count_difference": 7.0
+  },
+  "sources": [
+    {
+      "regSn": 21,
+      "sha256": "16bcba2946ad0656111646d4510ca4706782e635dcbba95a4c2d79e0c87f9380",
+      "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=21"
+    },
+    {
+      "regSn": 27,
+      "sha256": "d0762ae6fc57f8f7cc8e834b1e55c73e9f03df253b147658bacd0add60185bab",
+      "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=27"
+    },
+    {
+      "regSn": 39,
+      "sha256": "1588cc341ccacbf313da4047efd135f906da5833ef53f40d9627a03905de81b1",
+      "url": "https://data.ijto.or.kr/prog/dataPick/bigdata/sub02/view.do?regSn=39"
+    }
+  ],
+  "warnings": [
+    "2026년 12월 자료는 아직 없으며 1월부터 8월까지 결과를 12월 예측으로 사용하지 않습니다.",
+    "카드 이용건수는 고유 고객 수가 아닙니다.",
+    "소비금액은 명목금액이며 물가·가격·업종 구성 영향을 분리하지 않았습니다.",
+    "시간 구간은 분석용 구분이며 최적 광고·할인 시간의 검증 결과가 아닙니다.",
+    "비중 분모는 관측 자료의 합계이며 관측 부재 시간대를 0건으로 추정하지 않습니다."
+  ]
+}

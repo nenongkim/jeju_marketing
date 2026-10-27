@@ -33,3 +33,9 @@ node 02_제품/화면시안_Make/evidence/case-data.test.cjs
 첫 명령은 원본 4개 해시 검증 후 JSON과 분석 증빙을 생성한다. 두 번째 명령은 자료 형식과 오류 차단, 월·시간대 정합성, 결측 보존을 검사한다. 브라우저 검증 기록은 분석 보고서 6절에 있다.
 
 기존 Pages 워크플로는 Make 폴더 변경 시 실행되도록 이미 설정되어 있다. 이 폴더는 상대 경로로 자체 데이터를 읽으므로 해당 게시 범위에 포함된다. 배포 권한·요금제·Pages 설정은 변경하지 않았다.
+
+## 추가 동기간 분석
+
+`strengthen_ijto_case.py` 실행 후 `python 07_원천/ijto_20261027/scripts/extend_case_analysis.py --data-root <로컬 data_collection 경로> --repo-root .`로 추가 분석을 재생성한다. 2026-10-27 스냅샷의 공통 기간은 1월부터 8월까지다. `case-data.json`과 `recent-data.json`이 모두 필요하며 로딩·검증 실패 시 예시 자료로 대체하지 않는다.
+
+`node 02_제품/화면시안_Make/evidence/case-data.test.cjs`와 `node 02_제품/화면시안_Make/evidence/recent-data.test.cjs`로 검사한다. 실제 사용자 평가는 `06_증빙/사용자평가`의 절차와 빈 양식을 사용한다.
