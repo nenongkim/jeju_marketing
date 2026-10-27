@@ -1,0 +1,55 @@
+name: Sync evaluation prototype
+on:
+  push:
+    branches: [main]
+    paths:
+      - '02_제품/화면시안_Make/evidence/index.html'
+      - '02_제품/화면시안_Make/evidence/case.css'
+      - '02_제품/화면시안_Make/evidence/case.js'
+      - '02_제품/화면시안_Make/evidence/workflow.js'
+      - '02_제품/화면시안_Make/evidence/recent.js'
+      - '02_제품/화면시안_Make/evidence/case-data.json'
+      - '02_제품/화면시안_Make/evidence/recent-data.json'
+      - '02_제품/화면시안_Make/evidence/*.test.cjs'
+      - '.github/scripts/publish_demo.py'
+      - '.github/scripts/test_publish_demo.py'
+      - '.github/workflows/sync-demo.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: sync-evaluation-site
+  cancel-in-progress: false
+jobs:
+  sync:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: source
+          persist-credentials: false
+      - name: Validate data and publishing boundary
+        working-directory: source
+        run: |
+          node '02_제품/화면시안_Make/evidence/case-data.test.cjs'
+          node '02_제품/화면시안_Make/evidence/recent-data.test.cjs'
+          node '02_제품/화면시안_Make/evidence/workflow.test.cjs'
+          python3 .github/scripts/test_publish_demo.py
+      - uses: actions/checkout@v4
+        with:
+          repository: nenongkim/jeju-marketing-demo
+          ref: main
+          path: public-site
+          ssh-key: ${{ secrets.JEJU_DEMO_DEPLOY_KEY }}
+      - name: Stage reviewed assets only
+        run: python3 source/.github/scripts/publish_demo.py --source 'source/02_제품/화면시안_Make/evidence' --destination public-site --revision "$GITHUB_SHA"
+      - name: Commit and publish
+        working-directory: public-site
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- index.html case.css case.js workflow.js recent.js case-data.json recent-data.json .nojekyll README.md release.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Sync reviewed prototype from ${GITHUB_SHA}"
+          git push origin HEAD:main
