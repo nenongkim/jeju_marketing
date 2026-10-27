@@ -10,3 +10,14 @@ assert.throws(()=>ctx.validateWorkspace({version:1,plans:[{...plan,date:'2026-11
 fail=true;assert.throws(()=>ctx.commitWorkspace({version:1,plans:[]}));assert.equal(vm.runInContext('workspace.plans.length',ctx),1);
 const broken=vm.createContext({localStorage:{getItem:()=>'{broken',setItem:()=>{throw Error('must not overwrite');}},Date});vm.runInContext(code,broken);assert.equal(vm.runInContext('storageBlocked',broken),true);assert.throws(()=>broken.commitWorkspace({version:1,plans:[]}));
 console.log('PASS: persistence, zero vs missing, invalid dates/counts, duplicate IDs, failed write preserves state, corrupt storage blocked');
+
+// Editing must preserve original evidence, identity and execution records.
+fail=false;ctx.month=12;ctx.customer='도민';ctx.drafts={};ctx.crypto={randomUUID:()=> 'new-id'};
+ctx.capture=()=>({date:'2026-12-05',reason:'updated',action:'updated action',metric:'understanding'});
+ctx.proofForPlan=()=>({snapshot:'NEW-DATA'});ctx.render=()=>{};ctx.status=()=>{};ctx.routeWorkspace=()=>{};
+ctx.document={querySelector:()=>({textContent:''})};
+vm.runInContext("editingId='p1'; function draftKey(){return editingId?'plan:'+editingId:'12:도민';} dirtyPlans.add('plan:p1');",ctx);
+ctx.saveIntegratedPlan();saved=JSON.parse(stored.values().next().value);
+assert.equal(saved.plans.length,1);assert.equal(saved.plans[0].evidence.snapshot,'2026-10-27');assert.equal(saved.plans[0].record.clicks,0);assert.equal(saved.plans[0].action,'updated action');assert.equal(ctx.hasUnsaved(),false);
+vm.runInContext("recordDrafts.p1={activity:'pending'}",ctx);assert.equal(ctx.hasUnsaved(),true);
+console.log('PASS: editing preserves evidence and execution; unsaved record guard');
