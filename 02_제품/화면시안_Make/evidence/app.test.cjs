@@ -14,3 +14,8 @@ vm.runInContext("drafts[draftKey()].reason='사용자가 작성한 이유';dirty
 ctx.selectProposal(11);assert.equal(vm.runInContext('month',ctx),11);assert.ok(vm.runInContext("drafts[draftKey()].reason.includes('0.890')",ctx));
 for(const label of ['실제 데이터 반영률 25%','2.1배','18% 증가','카페 A'])assert.ok(!read('app.js').includes(label));
 console.log('PASS: 36 real proposals; correct month/date/customer; unsaved user text preserved and isolated; no legacy fabricated outcomes');
+
+// Dashboard must follow the same selected quarter as proposals, including outside Q4.
+vm.runInContext("const workspace={plans:[]};const customers=['내국인 관광객','도민','외국인 관광객'];function delta(v){return String(v);}selected=()=>{const m=evidence.months.find(m=>m.month===month);return {m,g:m.segments.find(g=>g.customer===customer)};};customer='도민';",ctx);
+for(let m=1;m<=12;m++){vm.runInContext(`month=${m}`,ctx);const q=Math.floor((m-1)/3)*3+1;assert.ok(ctx.overviewPage().includes(`2026년 ${q}월부터 ${q+2}월까지 · 저장한 계획만 표시`));}
+console.log('PASS: dashboard quarter follows all 12 selected months');
