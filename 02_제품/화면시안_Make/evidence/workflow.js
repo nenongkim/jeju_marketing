@@ -45,13 +45,5 @@ function showRecord(id){const p=workspace.plans.find(x=>x.id===id),r=recordDraft
  box.scrollIntoView({behavior:'smooth'});
 }
 function exportWork(data,download=true){const box=document.querySelector('#work-export-panel');box.hidden=false;const content=JSON.stringify({exported_at:new Date().toISOString(),storage:'이 브라우저의 사용자 입력',data,revenue_effect:null,user_evaluation:null},null,2);document.querySelector('#work-json').value=content;try{if(download){const url=URL.createObjectURL(new Blob([content],{type:'application/json'})),a=document.createElement('a');a.href=url;a.download='구좌_계획과실행기록.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}}catch{}document.querySelector('#work-export-status').textContent=download?'저장된 계획·기록의 JSON을 만들고 파일 저장을 요청했습니다. 미저장 입력은 포함되지 않습니다. 다운로드되지 않으면 위 내용을 복사하세요.':'저장된 계획과 근거입니다. 파일 다운로드 없이 내용을 확인할 수 있습니다.';box.scrollIntoView({behavior:'smooth'});}
-function routeWorkspace(view,replace=false){
- document.querySelector('#work-notice').textContent=workError;
- if(!['analysis','plan','calendar','records'].includes(view))view='analysis';
- document.querySelector('#case').hidden=!['analysis','plan'].includes(view);document.querySelector('#workspace').hidden=['analysis','plan'].includes(view);
- document.querySelectorAll('[data-view]').forEach(b=>{if(b.dataset.view===view)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});
- if(view==='calendar'||view==='records')drawWorkspace(view);
- if(location.hash!=='#'+view)history[replace?'replaceState':'pushState'](null,'','#'+view);
- if(view==='plan')document.querySelector('#planning').scrollIntoView({behavior:'smooth'});else window.scrollTo(0,0);
-}
-function initWorkspace(){document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>{if(!document.querySelector('#case').hidden)capture();routeWorkspace(b.dataset.view);});if(workError)document.querySelector('#work-notice').textContent=workError;routeWorkspace(location.hash.slice(1),true);window.addEventListener('popstate',()=>{if(!document.querySelector('#case').hidden)capture();routeWorkspace(location.hash.slice(1),true);});window.addEventListener('beforeunload',e=>{if(hasUnsaved()){e.preventDefault();e.returnValue='';}});}
+function routeWorkspace(view,replace=false){navigateApp(view,replace);}
+function initWorkspace(){startApplication();}

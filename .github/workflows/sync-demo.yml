@@ -5,6 +5,9 @@ on:
     paths:
       - '02_제품/화면시안_Make/evidence/index.html'
       - '02_제품/화면시안_Make/evidence/case.css'
+      - '02_제품/화면시안_Make/evidence/figma.css'
+      - '02_제품/화면시안_Make/evidence/figma-ui.js'
+      - '02_제품/화면시안_Make/evidence/app.js'
       - '02_제품/화면시안_Make/evidence/case.js'
       - '02_제품/화면시안_Make/evidence/workflow.js'
       - '02_제품/화면시안_Make/evidence/recent.js'
@@ -35,6 +38,7 @@ jobs:
           node '02_제품/화면시안_Make/evidence/case-data.test.cjs'
           node '02_제품/화면시안_Make/evidence/recent-data.test.cjs'
           node '02_제품/화면시안_Make/evidence/workflow.test.cjs'
+          node '02_제품/화면시안_Make/evidence/app.test.cjs'
           python3 .github/scripts/test_publish_demo.py
       - uses: actions/checkout@v4
         with:
@@ -49,7 +53,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- index.html case.css case.js workflow.js recent.js case-data.json recent-data.json .nojekyll README.md release.json
+          git add -- index.html case.css case.js workflow.js recent.js case-data.json recent-data.json figma.css figma-ui.js app.js .nojekyll README.md release.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Sync reviewed prototype from ${GITHUB_SHA}"
           git push origin HEAD:main
