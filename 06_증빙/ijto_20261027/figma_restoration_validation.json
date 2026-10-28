@@ -1,0 +1,57 @@
+{
+  "verified_date_kst": "2026-10-28",
+  "source_commit": "9d7bcad1594eaafb1184fde834d45988e4ff0ebf",
+  "public_commit": "01cbc158d633798920a332060ec41c9b3278bfd7",
+  "actions_run": 40622339849,
+  "actions_conclusion": "success",
+  "pages_status": "built",
+  "url": "https://nenongkim.github.io/jeju-marketing-demo/",
+  "published_asset_sha256": {
+    "index.html": "9ef7829fa72d81c80cca5a0f8484cead1bd5fcff72bc58f40a1fb121a800e52c",
+    "case.css": "3c0a38cab4471f0beca4998a5edc772f19f76f95b74d65be3c9f93de9f5671dd",
+    "case.js": "3833a91c51a47d580f915bffdd5368a4e1be94a68e25e43992997922b1e92b2e",
+    "workflow.js": "82ce71508607facace4a7afef11f70835832fb5677f9c06b39c1fa82474e4b7b",
+    "recent.js": "0e3f16ada789e9a07532583d7fbec35a235f4a3f0d155b559c73ef90de870612",
+    "case-data.json": "03dfd0a827b46ec45167441a8d6e35c4d4ca779605b09d74c51ac8426f6389e8",
+    "recent-data.json": "89b44cd5ef1c1f030ec4b24ec0aebb3592538afd409f0649bd7a7c417f46df83",
+    "figma.css": "30ef6462772bd74da8a1b7983fa8efdb1d4bb5009cd6127912f90dd6c48498fa",
+    "figma-ui.js": "f7845ec8595dde2eaa206e5b5ed40b4df736079a60dc9767089bd2350a08fa21",
+    "app.js": "28a012389eb4eeb235b111356e3bfe647bd3437a7beaddf7ed4a05bcf99c71e0"
+  },
+  "original_figma_css_equal": true,
+  "font": "Pretendard Variable loaded in local and public browsers",
+  "local_checks": [
+    "invalid login rejected",
+    "business and service demo login",
+    "36 month/customer combinations without NaN or undefined",
+    "proposal evidence prefilled into plan",
+    "unsaved draft preservation",
+    "plan save-edit-calendar-record chain",
+    "record preserved when plan edited",
+    "zero versus null",
+    "reload restoration",
+    "JSON export preview",
+    "test plans and records removed",
+    "history and sidebar controls",
+    "390x844 sources, recommendations and plan layout without horizontal overflow"
+  ],
+  "public_checks": [
+    "new visitor starts at login",
+    "all five business menu screens",
+    "service source/rule screen",
+    "plan and execution record save",
+    "reload restoration",
+    "JSON zero versus null and evidence snapshot",
+    "month/customer changes",
+    "no console errors in observed flow",
+    "test plans and records removed"
+  ],
+  "limitations": [
+    "Demo login is not server authentication; roles share same browser storage",
+    "Physical mobile devices not tested",
+    "File download completion not verified; visible JSON fallback verified",
+    "Actual user evaluation and business outcomes remain unmeasured",
+    "Region and industry scope remains Gujwa restaurants"
+  ],
+  "screenshot_note": "Screenshots are functional verification, not user evaluation."
+}
