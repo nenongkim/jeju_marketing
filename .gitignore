@@ -9,3 +9,8 @@
 
 # PowerPoint creates these temporary lock files while a deck is open
 ~$*.pptx
+
+# Local editor and Python caches
+.obsidian/
+__pycache__/
+*.pyc

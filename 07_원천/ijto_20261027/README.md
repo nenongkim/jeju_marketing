@@ -2,7 +2,7 @@
 
 수집일: 2026년 10월 27일. 이 폴더는 출처 목록·CSV 해시·공개 페이지 메타데이터·실행 스크립트를 보관한다. 원본 CSV, PDF, ZIP, 설문 개별 응답은 Git에 포함하지 않는다.
 
-현재 로컬 수집 루트는 `C:/Users/User/OneDrive/문서/ChatGPT/공모전/data_collection`이다. `ijto_raw_20261027`에 원본 CSV, `ijto_public_20261027`에 페이지 증빙, `ijto_reports_20261027`에 공식 첨부파일, `analysis_20261027`에 전체 계산 결과가 있다. 저장소만 복제하면 원본이 자동으로 따라오지 않는다. 다른 컴퓨터에서는 허용된 방법으로 CSV를 다시 받거나 원본 폴더를 별도로 준비해야 한다.
+원본은 저장소 밖의 로컬 수집 폴더(이하 수집 루트)에 둔다. 수집 루트의 `ijto_raw_20261027`에 원본 CSV, `ijto_public_20261027`에 페이지 증빙, `ijto_reports_20261027`에 공식 첨부파일, `analysis_20261027`에 전체 계산 결과가 있다. 저장소만 복제하면 원본이 자동으로 따라오지 않는다. 다른 컴퓨터에서는 허용된 방법으로 CSV를 다시 받거나 원본 폴더를 별도로 준비해야 한다.
 
 ## 재실행
 
@@ -11,9 +11,9 @@ Python 3.12와 pandas, numpy, matplotlib를 사용했다. 한국어 그래프는
 저장소 최상위 PowerShell에서 다음과 같이 실행한다. `$dataRoot`는 실제 수집 폴더로 바꿀 수 있다.
 
 ```powershell
-$dataRoot = 'C:/Users/User/OneDrive/문서/ChatGPT/공모전/data_collection'
+$dataRoot = '<수집 루트 경로>'
 $scripts = './07_원천/ijto_20261027/scripts'
-python "$scripts/inventory_downloads.py" --downloads 'C:/Users/User/Downloads' --data-root $dataRoot
+python "$scripts/inventory_downloads.py" --downloads '<CSV 다운로드 폴더>' --data-root $dataRoot
 python "$scripts/analyse_ijto.py" --data-root $dataRoot
 python "$scripts/build_ijto_delivery.py" --data-root $dataRoot --repo-root .
 ```
