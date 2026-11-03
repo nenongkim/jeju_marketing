@@ -83,8 +83,8 @@
     "passed": true,
     "slideCount": 30,
     "sha256": "e7084cb94b3284482a668584e0dbb68f37b6c4e21891b5d45efa6d30dd136736",
-    "runtimeNodeModules": "/Users/leeseungbo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
-    "nodeExecutable": "/Users/leeseungbo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node"
+    "runtimeNodeModules": "/Users/<local>/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "nodeExecutable": "/Users/<local>/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node"
   },
   "nativeTableArithmetic": {
     "performed": true,

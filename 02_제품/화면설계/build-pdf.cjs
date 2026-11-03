@@ -9,7 +9,7 @@ const crypto = require('node:crypto');
 const { pathToFileURL } = require('node:url');
 
 const ROOT = path.resolve(__dirname, '../..');
-const DEFAULT_PLAYWRIGHT = '/Users/leeseungbo/.npm/_npx/9833c18b2d85bc59/node_modules/playwright';
+const DEFAULT_PLAYWRIGHT = 'playwright';
 const DEFAULT_CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 
 function parseArgs(argv) {

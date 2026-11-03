@@ -92,6 +92,7 @@ flowchart LR
 - [프로젝트 정의서](00_제출/Red_PROJECT.md)
 - [유스케이스 다이어그램](00_제출/Red_USECASE.md)
 - [화면설계서 PDF](<00_제출/Red 화면설계서_20261003.pdf>) · [원고와 Use Case 대응표](00_제출/Red_SCREEN.md)
+- [공모전 참가 서류](00_제출/공모전_참가서류/README.md)
 - [ERD 수정 내역](04_아키텍처/ERD/ERD_수정_내역.md) · [ERD 코드 설계서](04_아키텍처/ERD/ERD_코드_설계서.md) · [Oracle SQL](04_아키텍처/ERD/Red_ERD_Oracle.sql)
 
 **프로토타입**
